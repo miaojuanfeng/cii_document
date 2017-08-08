@@ -88,7 +88,7 @@ $this->benchmark->mark('another_mark_end');
 不能在视图中直接输出字符串 `{memory_usage}` 的方式来显示内存大小:
 
 ```
-
+<?php echo "{memory_usage}"; ?>
 ```
 
 这样做字符串不会被替换。
@@ -98,7 +98,7 @@ $this->benchmark->mark('another_mark_end');
 你可以在你的视图文件中使用下面这行代码来显示整个系统所占用的内存峰值大小:
 
 ```
-
+<?php echo $this->benchmark->memory_peak();?>
 ```
 
 这个方法返回字符串 “{memory\_peak}”，需要echo出来或赋值给变量，字符串将在视图输出前被替换成具体的内存峰值大小。
@@ -108,7 +108,7 @@ $this->benchmark->mark('another_mark_end');
 不能在视图中直接输出字符串 “{memory\_peak}” 的方式来显示内存峰值大小:
 
 ```
-
+<?php echo "{memory_peak}"; ?>
 ```
 
 这样做字符串不会被替换。
@@ -120,13 +120,17 @@ $this->benchmark->mark('another_mark_end');
 直接在视图中输出字符串固然很方便，但是 CII 无法判断视图中是否有字符串需要替换，如果在视图中没有字符串需要替换，在视图输出前依旧遍历输出字符串来查找要替换的字符串是很浪费时间并且没意义的，所以 CII 对此进行了性能优化，每次调用 benchmark 对象的方法，要替换字符串的次数加1，调用多少次方法，就替换多少次字符串。调用方法的次数为0，视图输出前不进行查找替换。
 
 ```
-
+<?php echo $this->benchmark->elapsed_time();?>
+{elapsed_time}
+<?php echo $this->benchmark->elapsed_time();?>
 ```
 
 上面的脚本在视图输出前将替换2次 “{elapsed\_time}” 字符串，结果如下：
 
 ```
-
+0.0012
+0.0012
+{elapsed_time}
 ```
 
 最后一次不会被替换。
