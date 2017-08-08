@@ -1,3 +1,6 @@
-# My Awesome API
+# CII - PHP内核扩展框架 {#cii-php内核扩展框架}
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+CII 是一个小巧但功能强大的 PHP 扩展框架，作为一个简单优雅的工具包，它可以为 PHP 程序员建立功能完善并且快速的 Web 应用程序。
+
+如果你已经厌倦了那些傻大笨粗的框架，为 CodeIgniter的运行效率而烦恼，并且你的站点运行在独立主机中，那么 CII 扩展框架就是你所需要的。
+
