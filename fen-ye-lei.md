@@ -2,12 +2,12 @@
 
 CII\_Pagination 类是 CodeIgniter 框架中 CI\_Pagination 类的扩展实现方式。
 
-内部结构
+#### 1. 内部结构
 
 ```
 Class CII_Pagination{
     public $base_url = NULL;
-	public $total_rows = NULL;
+    public $total_rows = NULL;
     public $per_page = NULL;
     public __construct(){
         // 初始化成员变量
@@ -21,7 +21,7 @@ Class CII_Pagination{
 }
 ```
 
-使用方法
+#### 2. 使用方法
 
 ```
 // 生成对象
@@ -38,7 +38,7 @@ $this->cii_pagination->initialize($cii_pagination);
 echo $this->cii_pagination->create_links($this->uri->segment(3));
 ```
 
-性能测试
+#### 3. 性能测试
 
 使用 CodeIgniter 框架的 CI\_Pagination 类与 CII\_Pagination 类输出相同分页结果，计算耗时。
 
@@ -83,32 +83,32 @@ body {
     <?php
         echo "<p>CI_Pagination: </p>";
         $this->benchmark->mark('pagination_code_start');
-		$pagination['full_tag_open'] = '<div class="pn"><div class="pn-container">';
+        $pagination['full_tag_open'] = '<div class="pn"><div class="pn-container">';
         $pagination['full_tag_close'] = '<div class="clearfix"></div></div><div class="clearfix"></div></div>';
-		$pagination['first_tag_open'] = '<span>';
+        $pagination['first_tag_open'] = '<span>';
         $pagination['first_tag_close'] = '</span>';
-		$pagination['last_tag_open'] = '<span>';
+        $pagination['last_tag_open'] = '<span>';
         $pagination['last_tag_close'] = '</span>';
-		$pagination['next_tag_open'] = '<span>';
+        $pagination['next_tag_open'] = '<span>';
         $pagination['next_tag_close'] = '</span>';
-		$pagination['prev_tag_open'] = '<span>';
+        $pagination['prev_tag_open'] = '<span>';
         $pagination['prev_tag_close'] = '</span>';
-		$pagination['cur_tag_open'] = '<span class="current">';
+        $pagination['cur_tag_open'] = '<span class="current">';
         $pagination['cur_tag_close'] = '</span>';
-		$pagination['num_tag_open'] = '<span>';
+        $pagination['num_tag_open'] = '<span>';
         $pagination['num_tag_close'] = '</span>';
-		$pagination['use_page_numbers'] = true;
+        $pagination['use_page_numbers'] = true;
         $pagination['first_link'] = '首页';
-		$pagination['prev_link'] = '上一页';
+        $pagination['prev_link'] = '上一页';
         $pagination['next_link'] = '下一页';
-		$pagination['last_link'] = '尾页';
+        $pagination['last_link'] = '尾页';
         $pagination['base_url'] = 'http://localhost:8888/ci/index.php/welcome/index/';
-		$pagination['per_page'] = 10;
+        $pagination['per_page'] = 10;
         $pagination['total_rows'] = 56;
-		$this->pagination->initialize($pagination);
-		echo $this->pagination->create_links();
+        $this->pagination->initialize($pagination);
+        echo $this->pagination->create_links();
         $this->benchmark->mark('pagination_code_end');
-		echo '<p>Time : '.$this->benchmark->elapsed_time('pagination_code_start', 'pagination_code_end', 22).'</p>';
+        echo '<p>Time : '.$this->benchmark->elapsed_time('pagination_code_start', 'pagination_code_end', 22).'</p>';
     ?>
 </div>
 <hr/>
@@ -116,22 +116,20 @@ body {
     <?php
         echo "<p>CII_Pagination: </p>";
         $this->benchmark->mark('cii_pagination_code_start');
-		$cii_pagination['base_url'] = 'http://localhost:8888/ci/index.php/welcome/index/';
+        $cii_pagination['base_url'] = 'http://localhost:8888/ci/index.php/welcome/index/';
         $cii_pagination['per_page'] = 10;
-		$cii_pagination['total_rows'] = 56;
+        $cii_pagination['total_rows'] = 56;
         $this->cii_pagination->initialize($cii_pagination);
         echo $this->cii_pagination->create_links($this->uri->segment(3));
         $this->benchmark->mark('cii_pagination_code_end');
-		echo '<p>Time : '.$this->benchmark->elapsed_time('cii_pagination_code_start', 'cii_pagination_code_end', 22).'</p>';
+        echo '<p>Time : '.$this->benchmark->elapsed_time('cii_pagination_code_start', 'cii_pagination_code_end', 22).'</p>';
     ?>
 </div>
 ```
 
-结果：
+#### 4. 结果
 
 ![](/assets/runtime.png)
 
 CII\_Pagination 类生成的结果与 CI\_Pagination 类生成的结果完全一致，通过 CodeIgniter 框架的基准测试类得出 CII\_Pagination 的运行时间比 CI\_Pagination 快了近10倍。
-
-
 
