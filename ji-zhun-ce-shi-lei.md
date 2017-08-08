@@ -16,24 +16,39 @@ CII 有一个一直都是启用状态的基准测试类，用于计算两个标�
 
 这里是个真实的代码示例:
 
+```php
+$this->benchmark->mark('code_start');
+// 一些程序代码...
+$this->benchmark->mark('code_end');
+echo $this->benchmark->elapsed_time('code_start', 'code_end');
 ```
 
-```
-
-"code\_start" 和 "code\_end" 这两个单词是随意的，它们只是两个用于标记的单词而已，你可以任意使用其他你想使用的单词，另外，你也可以设置多个标记点。
+`code_start` 和 `code_end` 这两个单词是随意的，它们只是两个用于标记的单词而已，你可以任意使用其他你想使用的单词，另外，你也可以设置多个标记点。
 
 看如下示例:
 
-```
-
+```php
+$this->benchmark->mark('dog');
+// 一些程序代码...
+$this->benchmark->mark('cat');
+// 更多的程序代码...
+$this->benchmark->mark('bird');
+echo $this->benchmark->elapsed_time('dog', 'cat');
+echo $this->benchmark->elapsed_time('cat', 'bird');
+echo $this->benchmark->elapsed_time('dog', 'bird');
 ```
 
 #### 2. 在性能分析器中使用基准测试点
 
-如果你希望你的基准测试数据显示在性能分析器中， 那么你的标记点就需要成对出现，而且标记点名称需要以 \_start 和 \_end 结束， 每一对的标记点名称应该一致。例如:
+如果你希望你的基准测试数据显示在性能分析器中， 那么你的标记点就需要成对出现，而且标记点名称需要以 `_start` 和 `_end` 结束， 每一对的标记点名称应该一致。例如:
 
-```
-
+```php
+$this->benchmark->mark('my_mark_start');
+// 一些程序代码...
+$this->benchmark->mark('my_mark_end');
+$this->benchmark->mark('another_mark_start');
+// 更多的程序代码...
+$this->benchmark->mark('another_mark_end');
 ```
 
 #### 3. 显示总执行时间
@@ -41,17 +56,17 @@ CII 有一个一直都是启用状态的基准测试类，用于计算两个标�
 如果你想显示从 CII 运行开始到最终结果输出到浏览器之间花费的总时间，只需简单的将下面这行代码放入你的视图文件中:
 
 ```
-
+<?php echo $this->benchmark->elapsed_time();?>
 ```
 
 你大概也注意到了，这个方法和上面例子中的介绍的那个计算两个标记点之间时间差的方法是一样的，只是不带任何参数。当不设参数时，CII 在向浏览器输出最终结果之前不会停止计时，所以无论你在哪里使用该方法，输出的计时结果都是总执行时间。
 
-这个方法不带参数时返回字符串 “{elapsed\_time}”，需要echo出来或赋值给变量，字符串将在视图输出前被替换成具体的时间。
+这个方法不带参数时返回字符串 `{elapsed_time}`，需要echo出来或赋值给变量，字符串将在视图输出前被替换成具体的时间。
 
-不能在视图中直接输出字符串 “{elapsed\_time}” 的方式来显示总执行时间:
+不能在视图中直接输出字符串 `{elapsed_time}` 的方式来显示总执行时间:
 
 ```
-
+<?php echo "{elapsed_time}"; ?>
 ```
 
 这样做字符串不会被替换。
@@ -60,17 +75,17 @@ CII 有一个一直都是启用状态的基准测试类，用于计算两个标�
 
 #### 4. 显示内存占用
 
-如果你的 PHP 在安装时使用了`--enable-memory-limit`参数进行编译，你就可以在你的视图文件中使用下面这行代码来显示整个系统所占用的内存大小:
+如果你的 PHP 在安装时使用了 `--enable-memory-limit` 参数进行编译，你就可以在你的视图文件中使用下面这行代码来显示整个系统所占用的内存大小:
 
 ```
-
+<?php echo $this->benchmark->memory_usage();?>
 ```
 
-这个方法返回字符串 “{memory\_usage}”，需要echo出来或赋值给变量，字符串将在视图输出前被替换成具体的内存大小。
+这个方法返回字符串 `{memory_usage}`，需要echo出来或赋值给变量，字符串将在视图输出前被替换成具体的内存大小。
 
 这个方法只能在视图文件中使用，显示的结果代表整个应用所占用的内存大小。
 
-不能在视图中直接输出字符串 “{memory\_usage}” 的方式来显示内存大小:
+不能在视图中直接输出字符串 `{memory_usage}` 的方式来显示内存大小:
 
 ```
 
