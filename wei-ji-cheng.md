@@ -4,16 +4,59 @@
 
 > 实际上 CII\_Controller、CII\_Model 基类是不存在的，CII 内核在控制器初始化过程中向控制器、模型注入了一些成员变量与方法，使得看起来控制器、模型像是继承了某个基类。这就是伪继承的含义。
 
-比如，在控制器目录下编写一个类home:
+例如，在控制器目录下编写一个类 home.php :
 
-```
-
+```php
+class Home{
+    public $name;
+    public $addr;
+    public function __construct(){
+        $this->name = "myhome";
+        $this->addr = "anywhere";
+    }
+    public function getaddr(){
+        return $this->addr;
+    }
+}
 ```
 
 在访问请求到来时，CII 根据路由读取 Home 类，并向 Home 类中添加 CII 框架所需的成员变量与成员函数，然后实例化 Home 类。上面的 Home 类在被 CII 读取后会变为：
 
-```
-
+```php
+class Home{
+    /*
+    *   Home 定义的成员变量
+    */
+    public $name;
+    public $addr;
+    /*
+    *   CII 添加的成员变量
+    */
+    public $benchmark;
+    public $hooks;
+    public $config;
+    public $log;
+    public $uri;
+    public $router;
+    public $output;
+    public $input;
+    public $lang;
+    public $load;
+    /*
+    *   Home 定义的成员函数
+    */
+    public function __construct(){
+        $this->name = "myhome";
+        $this->addr = "anywhere";
+    }
+    public function getaddr(){
+        return $this->addr;
+    }
+    /*
+    *   CII 添加的成员函数
+    */
+    public function &get_instance(){...}
+}
 ```
 
 CII 添加的成员变量会在 Home 构造函数调用前赋值：
