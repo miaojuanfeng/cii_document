@@ -59,36 +59,91 @@ class Home{
 }
 ```
 
-CII 添加的成员变量会在 Home 构造函数调用前赋值：
+CII 添加的成员变量会在 Home 构造函数调用前实例化：
 
-```
-
+```php
+$benchmark = new CII_Benchmark();
+$hooks     = new CII_Hooks();
+$config    = new CII_Config();
+$log       = new CII_Log();
+$uri       = new CII_URI();
+$router    = new CII_Router();
+$output    = new CII_Output();
+$input     = new CII_Input();
+$lang      = new CII_Lang();
+$load      = new CII_Load();
 ```
 
 所以，你可以在控制器 Home 中正常使用这成员变量而不用担心它们未定义：
 
-```
-
+```php
+class Home{
+    public $name;
+    public $addr;
+    public function __construct(){
+        $this->name = "myhome";
+        $this->addr = "anywhere";
+        /*
+        *   不会报错，因为 lang 在 Home 加载过程中定义了
+        */
+        $this->lang->load('cii');
+    }
+    public function getaddr(){
+        return $this->addr;
+        /*
+        *   不会报错，因为 lang 在 Home 加载过程中定义了
+        */
+        $this->lang->line('cii_name');
+    }
+}
 ```
 
 在定义类时注意不要重载了伪父类的成员属性与方法，如：
 
+```php
+class Home{
+    public $name;
+    public $addr;
+    public $lang;
+    public function __construct(){
+        $this->name = "myhome";
+        $this->addr = "anywhere";
+    }
+    public function getaddr(){
+        return $this->addr;
+    }
+}
 ```
 
+在控制器 Home 中声明一个同名成员变量 lang，CII 会认为你想重载这个变量，将不会对它进行实例化为 CII\_Lang 对象的操作。当然如果你正想重载 lang，这么做是极好的。
+
+> 所有的成员变量与成员函数的注入过程都是在 CII 内核控制器初始化过程中完成的。
+
+控制器伪基类定义：
+
+```php
+class CII_Controller{
+    public $benchmark;
+    public $hooks;
+    public $config;
+    public $log;
+    public $uri;
+    public $router;
+    public $output;
+    public $input;
+    public $lang;
+    public $load;
+    public function &get_instance(){...}
+}
 ```
 
-在控制器 Home 中声明一个同名成员变量 lang，CII 会认为你想重载这个变量，就不对它进行实例化为 CII\_Lang 对象的操作了。当然如果你正想重载 lang，这么做是极好的。
+模型伪基类定义：
 
-伪控制器基类定义：
-
-```
-
-```
-
-伪模型基类定义：
-
-```
-
+```php
+class CII_Model{
+      public function __construct(){...}
+      public function __get(){...}
+}
 ```
 
 
