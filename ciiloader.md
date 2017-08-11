@@ -6,10 +6,10 @@
 
 | Method | Description |
 | :--- | :--- |
-| view\(\) | 加载视图 |
-| model\(\) | 加载模型 |
-| helper\(\) | 加载函数 |
-| library\(\) | 加载类 |
+| CII\_Loader::view\(\) | 加载视图 |
+| CII\_Loader::model\(\) | 加载模型 |
+| CII\_Loader::helper\(\) | 加载函数 |
+| CII\_Loader::library\(\) | 加载类 |
 
 
 
