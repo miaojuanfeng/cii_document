@@ -4,7 +4,7 @@
 
 | Method | Description |
 | :--- | :--- |
-| \_\_construct\(\) | 构造函数，初始化数据库链接 |
+| CII\_Database::\_\_construct\(\) | 构造函数，初始化数据库链接 |
 | query\(\) | 执行一条sql查询 |
 | affected\_rows\(\) | 返回执行sql后受影响的数据条数 |
 | select\(\) | 构造select查询条件 |
