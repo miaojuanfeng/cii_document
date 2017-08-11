@@ -28,7 +28,3 @@
 * [CII\_Loader](ciiloader.md)
 * [CII\_Database](ciidatabase.md)
 
-## sd
-
-* [asdasd](sd/asdasd.md)
-
