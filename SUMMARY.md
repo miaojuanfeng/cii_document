@@ -16,16 +16,16 @@
 * [控制器](ji-ben-kuang-jia-jie-gou/kong-zhi-qi.md)
 * [模型](ji-ben-kuang-jia-jie-gou/mo-xing.md)
 * [视图](ji-ben-kuang-jia-jie-gou/shi-tu.md)
+* [基准测试类](ji-zhun-ce-shi-lei.md)
+* [语言类](yu-yan-lei.md)
+* [分页类](fen-ye-lei.md)
+* [钩子](gou-zi.md)
 
 ## 内核类定义
 
 * [CII\_Controller](methods.md)
 * CII\_Model
 * [CII\_Loader](ciiloader.md)
-* [基准测试类](ji-zhun-ce-shi-lei.md)
-* [语言类](yu-yan-lei.md)
-* [分页类](fen-ye-lei.md)
-* [钩子](gou-zi.md)
 
 ## sd
 
