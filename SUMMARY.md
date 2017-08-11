@@ -23,8 +23,8 @@
 
 ## 内核类定义
 
-* [CII\_Controller](methods.md)
-* [CII\_Model](ciimodel.md)
+* [\*CII\_Controller](ciicontroller.md)
+* [\*CII\_Model](ciimodel.md)
 * [CII\_Loader](ciiloader.md)
 * [CII\_Database](ciidatabase.md)
 
