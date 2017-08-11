@@ -18,8 +18,8 @@
 | delete\(\) | 删除数据 |
 | last\_query\(\) | 返回最后一次查询语句 |
 | insert\_id\(\) | 返回新插入数据的id |
-| group\_start\(\) | 构造（ |
-| group\_end\(\) | 构造） |
+| group\_start\(\) | 构造查询条件（ |
+| group\_end\(\) | 构造查询条件  ） |
 | or\_where\(\) | 构造where ... or ... 查询条件 |
 
 
