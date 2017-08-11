@@ -2,6 +2,13 @@
 
 数据库类
 
+#### Variables
+
+| Name | Access | Description |
+| :--- | :--- | :--- |
+| $conn\_id | Public |  |
+| $result\_id | Public |  |
+
 #### Public Methods
 
 | Method | Description |
