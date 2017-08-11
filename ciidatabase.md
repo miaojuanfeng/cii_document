@@ -2,25 +2,27 @@
 
 数据库类
 
+#### Public Methods
+
 | Method | Description |
 | :--- | :--- |
 | CII\_Database::\_\_construct\(\) | 构造函数，初始化数据库链接 |
-| query\(\) | 执行一条sql查询 |
-| affected\_rows\(\) | 返回执行sql后受影响的数据条数 |
-| select\(\) | 构造select查询条件 |
-| from\(\) | 构造from查询条件 |
-| where\(\) | 构造where查询条件 |
-| order\_by\(\) | 构造order\_by查询条件 |
-| limit\(\) | 构造limit查询条件 |
-| get\(\) | 组合查询条件，执行一条sql查询 |
-| insert\(\) | 插入数据 |
-| update\(\) | 更新数据 |
-| delete\(\) | 删除数据 |
-| last\_query\(\) | 返回最后一次查询语句 |
-| insert\_id\(\) | 返回新插入数据的id |
-| group\_start\(\) | 构造查询条件（ |
-| group\_end\(\) | 构造查询条件  ） |
-| or\_where\(\) | 构造where ... or ... 查询条件 |
+| CII\_Database::query\(\) | 执行一条sql查询 |
+| CII\_Database::affected\_rows\(\) | 返回执行sql后受影响的数据条数 |
+| CII\_Database::select\(\) | 构造select查询条件 |
+| CII\_Database::from\(\) | 构造from查询条件 |
+| CII\_Database::where\(\) | 构造where查询条件 |
+| CII\_Database::order\_by\(\) | 构造order\_by查询条件 |
+| CII\_Database::limit\(\) | 构造limit查询条件 |
+| CII\_Database::get\(\) | 组合查询条件，执行一条sql查询 |
+| CII\_Database::insert\(\) | 插入数据 |
+| CII\_Database::update\(\) | 更新数据 |
+| CII\_Database::delete\(\) | 删除数据 |
+| CII\_Database::last\_query\(\) | 返回最后一次查询语句 |
+| CII\_Database::insert\_id\(\) | 返回新插入数据的id |
+| CII\_Database::group\_start\(\) | 构造查询条件（ |
+| CII\_Database::group\_end\(\) | 构造查询条件  ） |
+| CII\_Database::or\_where\(\) | 构造where ... or ... 查询条件 |
 
 
 
