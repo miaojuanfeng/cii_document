@@ -41,8 +41,8 @@
 | CII\_Database::delete\(\) | 删除数据 |
 | CII\_Database::last\_query\(\) | 返回最后一次查询语句 |
 | CII\_Database::insert\_id\(\) | 返回新插入数据的id |
-| CII\_Database::group\_start\(\) | 构造查询条件（ |
-| CII\_Database::group\_end\(\) | 构造查询条件  ） |
+| CII\_Database::group\_start\(\) | 构造查询条件\( |
+| CII\_Database::group\_end\(\) | 构造查询条件\) |
 | CII\_Database::or\_where\(\) | 构造where ... or ... 查询条件 |
 
 
