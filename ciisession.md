@@ -15,11 +15,11 @@ Session类。
 | CII\_Session::\_\_construct\(\) | 构造函数 |
 | CII\_Session::\_\_get\(\) | 支持未定义成员变量，设置成员变量的值 |
 | CII\_Session::\_\_set\(\) | 支持未定义成员变量，获取成员变量的值 |
-| CII\_Session::set\_tempdata\(\) | 设置访问的控制器方法 |
-| CII\_Session::tempdata\(\) | 获取访问的控制器方法 |
-| CII\_Session::set\_userdata\(\) |  |
-| CII\_Session::userdata\(\) |  |
-| CII\_Session::unset\_userdata\(\) |  |
+| CII\_Session::set\_tempdata\(\) | 设置临时数据 |
+| CII\_Session::tempdata\(\) | 获取临时数据 |
+| CII\_Session::set\_userdata\(\) | 设置用户数据 |
+| CII\_Session::userdata\(\) | 获取用户数据 |
+| CII\_Session::unset\_userdata\(\) | 删除用户数据 |
 
 
 
