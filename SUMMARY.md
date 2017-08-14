@@ -34,4 +34,5 @@
 * [CII\_Hooks](ciihooks.md)
 * [CII\_Input](ciiinout.md)
 * [CII\_Lang](ciilanguage.md)
+* [CII\_Log](ciilog.md)
 
