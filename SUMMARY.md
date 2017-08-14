@@ -36,4 +36,5 @@
 * [CII\_Lang](ciilanguage.md)
 * [CII\_Log](ciilog.md)
 * [CII\_Output](ciioutput.md)
+* [CII\_Pagination](ciipagination.md)
 
