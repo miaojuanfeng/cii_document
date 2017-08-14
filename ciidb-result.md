@@ -2,7 +2,7 @@
 
 数据库结果类
 
-#### Public Methods
+#### Member Methods
 
 | Method | Description |
 | :--- | :--- |
