@@ -2,7 +2,7 @@
 
 数据库类
 
-#### Variables
+#### Member Variables
 
 | Name | Access | Description |
 | :--- | :--- | :--- |
