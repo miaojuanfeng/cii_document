@@ -15,7 +15,7 @@
 | Method | Description |
 | :--- | :--- |
 | CII\_Pagination::\_\_construct\(\) | 构造函数 |
-| CII\_Pagination::initialize\(\) | 初始化分页类 |
+| CII\_Pagination::initialize\(\) | 初始化分页对象 |
 | CII\_Pagination::create\_links\(\) | 创建分页链接 |
 
 
