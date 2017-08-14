@@ -1,4 +1,4 @@
-# CII\_Language
+# CII\_Lang
 
 语言类。
 
@@ -13,9 +13,9 @@
 
 | Method | Description |
 | :--- | :--- |
-| CII\_Language::\_\_construct\(\) | 构造函数 |
-| CII\_Language::load\(\) | 加载一种语言 |
-| CII\_Language::line\(\) | 获取一个词汇在当前语言下的翻译 |
+| CII\_Lang::\_\_construct\(\) | 构造函数 |
+| CII\_Lang::load\(\) | 加载一种语言 |
+| CII\_Lang::line\(\) | 获取一个词汇在当前语言下的翻译 |
 
 
 

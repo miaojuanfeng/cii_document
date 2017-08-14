@@ -33,5 +33,5 @@
 * [CII\_Config](ciiconfig.md)
 * [CII\_Hooks](ciihooks.md)
 * [CII\_Input](ciiinout.md)
-* [CII\_Language](ciilanguage.md)
+* [CII\_Lang](ciilanguage.md)
 
