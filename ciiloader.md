@@ -2,6 +2,12 @@
 
 加载类，可在控制器中加载模型，视图，函数，类。并且会将加载的类实例化，注入到控制器中。
 
+#### Member Variables
+
+| 无 |
+| :---: |
+
+
 #### Public Methods
 
 | Method | Description |
