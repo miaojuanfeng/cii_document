@@ -1,6 +1,6 @@
 # CII\_DB\_result
 
-数据库结果类
+数据库结果类。
 
 #### Member Variables
 

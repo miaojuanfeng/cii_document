@@ -1,6 +1,6 @@
 # CII\_Database
 
-数据库类
+数据库类。
 
 #### Member Variables
 
