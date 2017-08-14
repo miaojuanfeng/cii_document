@@ -23,7 +23,7 @@
 | $group\_start | Protected | \(查询条件 |
 | $group\_end | Protected | \)查询条件 |
 
-#### Public Methods
+#### Member Methods
 
 | Method | Description |
 | :--- | :--- |
