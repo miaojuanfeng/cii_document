@@ -10,6 +10,8 @@
 | CII\_Loader::model\(\) | 加载模型 |
 | CII\_Loader::helper\(\) | 加载函数 |
 | CII\_Loader::library\(\) | 加载类 |
+| CII\_Loader::database\(\) | 加载数据库 |
+| CII\_loader::language\(\) | 加载语言 |
 
 
 
