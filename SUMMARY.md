@@ -30,4 +30,5 @@
 * [CII\_DB\_result](ciidb-result.md)
 * [CII\_Benchmark](ciibenchmark.md)
 * [CII\_Config](ciiconfig.md)
+* [CII\_Hooks](ciihooks.md)
 
