@@ -39,4 +39,5 @@
 * [CII\_Pagination](ciipagination.md)
 * [CII\_Router](ciirouter.md)
 * [CII\_Session](ciisession.md)
+* [CII\_URI](ciiuri.md)
 
