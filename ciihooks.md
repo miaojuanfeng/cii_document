@@ -13,9 +13,10 @@
 
 #### Member Methods
 
-|  |  |
+| Method | Description |
 | :--- | :--- |
-|  |  |
+| CII\_Hooks::\_\_construct\(\) | 构造函数 |
+| CII\_Hooks::call\_hook\(\) | 调用钩子 |
 
 
 
