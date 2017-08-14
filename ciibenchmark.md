@@ -2,3 +2,21 @@
 
 基准测试类，记录页面加载时间，计算程序性能。
 
+#### Member Variables
+
+| Name | Access | Description$ |
+| :--- | :--- | :--- |
+| $marker | Public | 记录点数组 |
+
+#### Member Methods
+
+| Method | Description |
+| :--- | :--- |
+| CII\_Benchmark::\_\_construct\(\) | 构造函数 |
+| CII\_Benchmark::mark\(\) | 设置一个记录点 |
+| CII\_Benchmark::elapsed\_time\(\) | 计算两个记录点之间的时间 |
+| CII\_Benchmark::memory\_usage\(\) | 返回内存使用量 |
+| CII\_Benchmark::memory\_peak\(\) | 返回内存使用峰值 |
+
+
+
