@@ -2,6 +2,16 @@
 
 数据库结果类
 
+#### Member Variables
+
+| Name | Access | Description |
+| :--- | :--- | :--- |
+| $conn\_id | Public | Mysqli类实例化后的数据库链接对象 |
+| $result\_id | Public | Mysqli\_result类实例化后的数据库查询结果对象 |
+| $result\_array | Public | 数组形式保存的查询结果 |
+| $row\_array | Public | 数组形式保存的一行结果 |
+| $num\_rows | Public | 查询结果的行数 |
+
 #### Member Methods
 
 | Method | Description |
