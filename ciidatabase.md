@@ -6,7 +6,7 @@
 
 | Name | Access | Description |
 | :--- | :--- | :--- |
-| $conn\_id | Public |  |
+| $conn\_id | Public | Mysqli类实例化的数据库链接对象 |
 | $result\_id | Public |  |
 
 #### Public Methods
