@@ -13,6 +13,7 @@
 ## 基本框架结构
 
 * [配置](ji-ben-kuang-jia-jie-gou/pei-zhi.md)
+* 运行
 * [控制器](ji-ben-kuang-jia-jie-gou/kong-zhi-qi.md)
 * [模型](ji-ben-kuang-jia-jie-gou/mo-xing.md)
 * [视图](ji-ben-kuang-jia-jie-gou/shi-tu.md)
@@ -32,4 +33,5 @@
 * [CII\_Config](ciiconfig.md)
 * [CII\_Hooks](ciihooks.md)
 * [CII\_Input](ciiinout.md)
+* [CII\_Language](ciilanguage.md)
 
