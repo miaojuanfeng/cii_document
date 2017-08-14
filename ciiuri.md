@@ -14,14 +14,20 @@ URI类。
 
 | Method | Description |
 | :--- | :--- |
-| CII\_Session::\_\_construct\(\) | 构造函数 |
-| CII\_Session::\_\_get\(\) | 支持未定义成员变量，设置成员变量的值 |
-| CII\_Session::\_\_set\(\) | 支持未定义成员变量，获取成员变量的值 |
-| CII\_Session::set\_tempdata\(\) | 设置临时数据 |
-| CII\_Session::tempdata\(\) | 获取临时数据 |
-| CII\_Session::set\_userdata\(\) | 设置用户数据 |
-| CII\_Session::userdata\(\) | 获取用户数据 |
-| CII\_Session::unset\_userdata\(\) | 删除用户数据 |
+| CII\_URI::\_\_construct\(\) | 构造函数 |
+| CII\_URI::segment\(\) | 返回segment数组 |
+| CII\_URI::rsegment\(\) | 返回rsegment数组 |
+| CII\_URI::segment\_array\(\) | 返回segment数组 |
+| CII\_URI::rsegment\_array\(\) | 获取rsegment数组 |
+| CII\_URI::total\_segments\(\) | 返回segment的数量 |
+| CII\_URI::total\_rsegments\(\) | 返回rsegment的数量 |
+| CII\_URI::uri\_string\(\) | segment转为字符串 |
+| CII\_URI::ruri\_string\(\) | rsegment转为字符串 |
+| CII\_URI::slash\_segment\(\) | 返回去掉'/'后的segment数组 |
+| CII\_URI::slash\_rsegment\(\) | 返回去掉'/'后的rsegment数组 |
+| CII\_URI::assoc\_to\_uri\(\) | 数组转为URI |
+| CII\_URI::uri\_to\_assoc\(\) | URI转为数组 |
+| CII\_URI::ruri\_to\_assoc\(\) | 数组转为URI |
 
 
 
