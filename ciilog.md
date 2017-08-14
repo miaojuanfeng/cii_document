@@ -1,6 +1,6 @@
 # CII\_Log
 
-日志类
+日志类。
 
 #### Member Variables
 
