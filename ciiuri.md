@@ -33,11 +33,27 @@ URI类。
 
 ```
 /**
- * Class constructor
- *
- * @return    void
- */
+* 构造函数
+* Class constructor
+*
+* @return    void
+*/
 public function __construct()
+```
+
+#### segment\(\)
+
+```
+/**
+* Fetch URI Segment
+*
+* @see		CI_URI::$segments
+* @param	int		$n		Index
+* @param	mixed		$no_result	What to return if the segment index is not found
+* @return	mixed
+*
+* public function segment($n, $no_result = NULL)
+*/
 ```
 
 
