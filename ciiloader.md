@@ -39,6 +39,7 @@ public function __construct()
 
 ```
 /**
+* 从控制器中获取成员变量
 * Magic method 
 *
 * Fetch member variables from Controller if it's not defined in CII_Loader.
