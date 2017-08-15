@@ -50,10 +50,10 @@ public function __construct()
 * @see        CI_URI::$segments
 * @param      int          $n            Index
 * @param      mixed        $no_result    What to return if the segment index is not found
-* @return     mixed
 *
-* public function segment($n, $no_result = NULL)
+* @return     mixed
 */
+public function segment($n, $no_result = NULL)
 ```
 
 
