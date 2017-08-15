@@ -126,5 +126,16 @@ public function total_segments()
 public function total_rsegments()
 ```
 
+#### uri\_string\(\)
+
+```
+/**
+* Fetch URI string
+*
+* @return    string    CI_URI::$uri_string
+*/
+public function uri_string()
+```
+
 
 
