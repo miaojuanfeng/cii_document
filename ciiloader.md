@@ -52,7 +52,7 @@ public function view($view, $vars = array(), $return = FALSE)
  *
  * @return   object
 */
-public function model\($model, $name = ''\)
+public function model($model, $name = '')
 ```
 
 
