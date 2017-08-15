@@ -61,9 +61,9 @@ public function model($model, $name = '')
 /**
 * Helper Loader
 *
-* @param	string|string[]	$helpers	Helper name(s)
+* @param     string|string[]    $helpers    Helper name(s)
 *
-* @return	object
+* @return    object
 */
 ```
 
