@@ -20,6 +20,8 @@
 | CII\_Loader::database\(\) | 加载数据库 |
 | CII\_Loader::language\(\) | 加载语言 |
 
+---
+
 #### view\(\)
 
 ```
