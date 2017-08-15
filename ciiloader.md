@@ -25,13 +25,13 @@
 
 ```
 /**
- * 构造函数
- * Class constructor
- *
- * Runs the route mapping function.
- *
- * @return    void
- */
+* 构造函数
+* Class constructor
+*
+* Runs the route mapping function.
+*
+* @return    void
+*/
 public function __construct()
 ```
 
@@ -39,13 +39,13 @@ public function __construct()
 
 ```
 /**
- * 从控制器中获取成员变量
- * Magic method 
- *
- * Fetch member variables from Controller if it's not defined in CII_Loader.
- *
- * @return    object
- */
+* 从控制器中获取成员变量
+* Magic method 
+*
+* Fetch member variables from Controller if it's not defined in CII_Loader.
+*
+* @return    object
+*/
 public function __get()
 ```
 
@@ -53,17 +53,17 @@ public function __get()
 
 ```
 /**
- * 加载视图
- * View Loader
- * 
- * Loads "view" files.
- *
- * @param    string    $view      View name
- * @param    array     $vars      An associative array of data, to be extracted for use in the view
- * @param    bool      $return    Whether to return the view output, or leave it to the Output class
- *
- * @return    object|string
- */
+* 加载视图
+* View Loader
+* 
+* Loads "view" files.
+*
+* @param    string    $view      View name
+* @param    array     $vars      An associative array of data, to be extracted for use in the view
+* @param    bool      $return    Whether to return the view output, or leave it to the Output class
+*
+* @return    object|string
+*/
 public function view($view, $vars = array(), $return = FALSE)
 ```
 
@@ -71,15 +71,15 @@ public function view($view, $vars = array(), $return = FALSE)
 
 ```
 /**
- * 加载并实例化模型
- * Model Loader
- *
- * Loads and instantiates models.
- *
- * @param    string    $model    Model name
- * @param    string    $name     An optional object name to assign to
- *
- * @return   object
+* 加载并实例化模型
+* Model Loader
+*
+* Loads and instantiates models.
+*
+* @param    string    $model    Model name
+* @param    string    $name     An optional object name to assign to
+*
+* @return   object
 */
 public function model($model, $name = '')
 ```
