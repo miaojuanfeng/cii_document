@@ -114,5 +114,17 @@ public function rsegment_array()
 public function total_segments()
 ```
 
+#### total\_rsegments\(\)
+
+```
+/**
+* Total number of routed segments
+*
+* @return    int
+*
+*/
+public function total_rsegments()
+```
+
 
 
