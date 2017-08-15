@@ -82,7 +82,7 @@ public function rsegment($n, $no_result = NULL)
 
 ```
 /**
-* 获取$segments数组
+* 获取路由数组
 * Segment Array
 *
 * @return    array    CI_URI::$segments
