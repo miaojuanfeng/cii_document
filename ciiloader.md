@@ -23,7 +23,7 @@
 #### view\(\)
 
 ```
-/*
+/**
  * 加载视图
  * View Loader
  * 
@@ -40,7 +40,17 @@ public function view($view, $vars = array(), $return = FALSE)
 
 #### model\(\)
 
-
-
-
+```
+/**
+ * Model Loader
+ *
+ * Loads and instantiates models.
+ *
+ * @param	string	$model		Model name
+ * @param	string	$name		An optional object name to assign to
+ * @return	object
+ *
+ * public function model\($model, $name = ''\)
+*/
+```
 
