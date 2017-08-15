@@ -30,10 +30,9 @@
 *
 * Runs the route mapping function.
 *
-* @return	void
-*
-* public function __construct()
+* @return    void
 */
+public function __construct()
 ```
 
 #### view\(\)
