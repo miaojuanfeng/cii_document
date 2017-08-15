@@ -23,8 +23,8 @@ URI类。
 | CII\_URI::total\_rsegments\(\) | 获取路由后分段数量 |
 | CII\_URI::uri\_string\(\) | 获取路由字符串 |
 | CII\_URI::ruri\_string\(\) | 获取路由后字符串 |
-| CII\_URI::slash\_segment\(\) | 返回去掉'/'后的segment数组 |
-| CII\_URI::slash\_rsegment\(\) | 返回去掉'/'后的rsegment数组 |
+| CII\_URI::slash\_segment\(\) |  |
+| CII\_URI::slash\_rsegment\(\) |  |
 | CII\_URI::assoc\_to\_uri\(\) | 数组转为URI |
 | CII\_URI::uri\_to\_assoc\(\) | URI转为数组 |
 | CII\_URI::ruri\_to\_assoc\(\) | 数组转为URI |
