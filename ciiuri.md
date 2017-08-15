@@ -29,5 +29,17 @@ URI类。
 | CII\_URI::uri\_to\_assoc\(\) | URI转为数组 |
 | CII\_URI::ruri\_to\_assoc\(\) | 数组转为URI |
 
+#### \_\_construct\(\)
+
+```
+/**
+*	Class constructor
+*
+*	@return	void
+*
+*	public function __construct()
+*/
+```
+
 
 
