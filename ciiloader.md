@@ -47,9 +47,9 @@ public function view($view, $vars = array(), $return = FALSE)
  *
  * Loads and instantiates models.
  *
- * @param    string    $model        Model name
- * @param    string    $name        An optional object name to assign to
- * @return    object
+ * @param    string    $model    Model name
+ * @param    string    $name     An optional object name to assign to
+ * @return   object
  *
  * public function model\($model, $name = ''\)
 */
