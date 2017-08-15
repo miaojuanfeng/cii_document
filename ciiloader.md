@@ -42,7 +42,7 @@ public function view($view, $vars = array(), $return = FALSE)
 
 ```
 /**
- * 加载模型
+ * 加载并实例化模型
  * Model Loader
  *
  * Loads and instantiates models.
