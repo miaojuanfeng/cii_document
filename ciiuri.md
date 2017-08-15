@@ -68,8 +68,8 @@ public function segment($n, $no_result = NULL)
 * based on the index provided. If there is no routing, will return
 * the same result as CI_URI::segment().
 *
-* @see        CI_URI::$rsegments
-* @see        CI_URI::segment()
+* @see        CII_URI::$rsegments
+* @see        CII_URI::segment()
 * @param      int        $n            Index
 * @param      mixed      $no_result    What to return if the segment index is not found
 *
@@ -85,7 +85,7 @@ public function rsegment($n, $no_result = NULL)
 * 获取路由数组
 * Segment Array
 *
-* @return    array    CI_URI::$segments
+* @return    array    CII_URI::$segments
 */
 public function segment_array()
 ```
@@ -97,7 +97,7 @@ public function segment_array()
 * 获取路由后数组
 * Routed Segment Array
 *
-* @return    array    CI_URI::$rsegments
+* @return    array    CII_URI::$rsegments
 */
 public function rsegment_array()
 ```
@@ -132,7 +132,7 @@ public function total_rsegments()
 /**
 * Fetch URI string
 *
-* @return    string    CI_URI::$uri_string
+* @return    string    CII_URI::$uri_string
 */
 public function uri_string()
 ```
