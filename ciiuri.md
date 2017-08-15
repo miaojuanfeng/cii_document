@@ -121,7 +121,6 @@ public function total_segments()
 * Total number of routed segments
 *
 * @return    int
-*
 */
 public function total_rsegments()
 ```
