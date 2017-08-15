@@ -35,6 +35,20 @@
 public function __construct()
 ```
 
+#### \_\_get\(\)
+
+```
+/**
+* Magic method 
+*
+* Runs the route mapping function.
+*
+* @return	void
+*
+* public function __construct()
+*/
+```
+
 #### view\(\)
 
 ```
