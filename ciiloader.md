@@ -82,10 +82,10 @@ public function helper($helpers)
 * @param    string    $library        Library name
 * @param    array     $params         Optional parameters to pass to the library class constructor
 * @param    string    $object_name    An optional object name to assign to
-* @return   object
 *
-* public function library($library, $params = NULL, $object_name = NULL)
+* @return   object
 */
+public function library($library, $params = NULL, $object_name = NULL)
 ```
 
 
