@@ -65,6 +65,7 @@ public function model($model, $name = '')
 *
 * @return    object
 */
+public function helper($helpers)
 ```
 
 
