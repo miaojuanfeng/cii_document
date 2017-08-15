@@ -25,13 +25,13 @@
 
 ```
 /**
-*    构造函数
-*    Class constructor
-*
-*    Runs the route mapping function.
-*
-*    @return    void
-*/
+ * 构造函数
+ * Class constructor
+ *
+ * Runs the route mapping function.
+ *
+ * @return    void
+ */
 public function __construct()
 ```
 
