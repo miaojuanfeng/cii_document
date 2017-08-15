@@ -24,15 +24,13 @@
 
 ```
 /*
- * What the function does
+ * 加载视图
  *
  * @param (name) about this param
  * @return (name)
  */
 function example((name))
 ```
-
-
 
 
 
