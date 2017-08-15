@@ -20,7 +20,19 @@
 | CII\_Loader::database\(\) | 加载数据库 |
 | CII\_loader::language\(\) | 加载语言 |
 
-#### 
+#### view\(\)
+
+```
+/*
+ * What the function does
+ *
+ * @param (name) about this param
+ * @return (name)
+ */
+function example((name))
+```
+
+
 
 
 
