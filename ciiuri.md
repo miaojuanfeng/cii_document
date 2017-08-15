@@ -90,5 +90,7 @@ public function rsegment($n, $no_result = NULL)
 public function segment_array()
 ```
 
+#### rsegment\_array\(\)
+
 
 
