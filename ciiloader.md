@@ -41,7 +41,7 @@ public function __construct()
 /**
 * Magic method 
 *
-* Get member variables from controller if it's not define in CII_Loader.
+* Fetch member variables from controller if it's not defined in CII_Loader.
 *
 * @return    void
 *
