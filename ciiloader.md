@@ -49,10 +49,10 @@ public function view($view, $vars = array(), $return = FALSE)
  *
  * @param    string    $model    Model name
  * @param    string    $name     An optional object name to assign to
- * @return   object
  *
- * public function model\($model, $name = ''\)
+ * @return   object
 */
+public function model\($model, $name = ''\)
 ```
 
 
