@@ -41,9 +41,9 @@ public function __construct()
 /**
 * Magic method 
 *
-* Runs the route mapping function.
+* Get member variables from controller if it's not define in CII_Loader.
 *
-* @return	void
+* @return    void
 *
 * public function __construct()
 */
