@@ -55,5 +55,17 @@ public function view($view, $vars = array(), $return = FALSE)
 public function model($model, $name = '')
 ```
 
+#### helper\(\)
+
+```
+/**
+* Helper Loader
+*
+* @param	string|string[]	$helpers	Helper name(s)
+*
+* @return	object
+*/
+```
+
 
 
