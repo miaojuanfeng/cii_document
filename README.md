@@ -33,7 +33,14 @@ PHP：
 Mysql：
 
 * [x] 任何 mysqli 扩展支持的版本
-* [ ] 目前 CII 扩展只支持连接 Mysql 数据库
 
+#### PHP编译方式
 
+PHP被编译成单线程，采用CGI方式与服务器协作。参考编译配置：
+
+```
+--prefix=/web/php --disable-maintainer-zts --enable-debug --with-mysql=mysqlnd --with-mysqli=mysqlnd --with-pdo-mysql=mysqlnd
+```
+
+线上安装请关闭PHP的Debug模式，去除`--enable-debug`
 
