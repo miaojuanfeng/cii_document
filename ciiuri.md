@@ -138,5 +138,17 @@ public function total_rsegments()
 public function uri_string()
 ```
 
+ruri\_string\(\)
+
+```
+/**
+* 获取路由后字符串
+* Fetch Re-routed URI string
+*
+* @return    string
+*/
+public function ruri_string()
+```
+
 
 
