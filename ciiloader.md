@@ -38,5 +38,9 @@
 public function view($view, $vars = array(), $return = FALSE)
 ```
 
+#### model\(\)
+
+
+
 
 
