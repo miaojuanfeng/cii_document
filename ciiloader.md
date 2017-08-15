@@ -25,11 +25,19 @@
 ```
 /*
  * 加载视图
+ * View Loader
  *
- * @param (name) about this param
- * @return (name)
+ * Loads "view" files.
+ *
+ * @param	string	$view	View name
+ * @param	array	$vars	An associative array of data
+ *				to be extracted for use in the view
+ * @param	bool	$return	Whether to return the view output
+ *				or leave it to the Output class
+ * @return	object|string
  */
-function example((name))
+public function view($view, $vars = array(), $return = FALSE)
+
 ```
 
 
