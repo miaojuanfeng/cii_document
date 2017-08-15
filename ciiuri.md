@@ -33,12 +33,11 @@ URI类。
 
 ```
 /**
-*    Class constructor
-*
-*    @return    void
-*
-*    public function __construct()
-*/
+ * Class constructor
+ *
+ * @return    void
+ */
+public function __construct()
 ```
 
 
