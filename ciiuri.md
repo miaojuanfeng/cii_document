@@ -118,6 +118,7 @@ public function total_segments()
 
 ```
 /**
+* 获取路由后分段数量
 * Total number of routed segments
 *
 * @return    int
