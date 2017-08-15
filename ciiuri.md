@@ -61,6 +61,7 @@ public function segment($n, $no_result = NULL)
 
 ```
 /**
+* 获取路由后的分段
 * Fetch URI "routed" Segment
 *
 * Returns the re-routed URI segment (assuming routing rules are used)
