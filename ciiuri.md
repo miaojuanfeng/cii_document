@@ -19,7 +19,7 @@ URI类。
 | CII\_URI::rsegment\(\) | 获取路由后分段 |
 | CII\_URI::segment\_array\(\) | 获取路由数组 |
 | CII\_URI::rsegment\_array\(\) | 获取路由后数组 |
-| CII\_URI::total\_segments\(\) | 返回segment的数量 |
+| CII\_URI::total\_segments\(\) | 获取路由分段数量 |
 | CII\_URI::total\_rsegments\(\) | 返回rsegment的数量 |
 | CII\_URI::uri\_string\(\) | segment转为字符串 |
 | CII\_URI::ruri\_string\(\) | rsegment转为字符串 |
@@ -100,6 +100,18 @@ public function segment_array()
 * @return    array    CI_URI::$rsegments
 */
 public function rsegment_array()
+```
+
+#### total\_segments\(\)
+
+```
+/**
+* 获取路由分段数量
+* Total number of segments
+*
+* @return    int
+*/
+public function total_segments()
 ```
 
 
