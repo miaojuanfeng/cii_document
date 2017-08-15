@@ -13,6 +13,7 @@
 | Method | Description |
 | :--- | :--- |
 | CII\_Loader::\_\_construct | 构造函数 |
+| CII\_Loader::\_\_get\(\) | 从控制器中获取成员变量 |
 | CII\_Loader::view\(\) | 加载视图 |
 | CII\_Loader::model\(\) | 加载模型 |
 | CII\_Loader::helper\(\) | 加载函数 |
