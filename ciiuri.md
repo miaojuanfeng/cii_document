@@ -78,5 +78,17 @@ public function segment($n, $no_result = NULL)
 public function rsegment($n, $no_result = NULL)
 ```
 
+#### segment\_array\(\)
+
+```
+/**
+* Segment Array
+*
+* @return    array    CI_URI::$segments
+*
+* public function segment_array()
+*/
+```
+
 
 
