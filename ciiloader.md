@@ -31,8 +31,7 @@
  *
  * @param    string   $view    View name
  * @param    array    $vars    An associative array of data, to be extracted for use in the view
- * @param    bool     $return  Whether to return the view output
- *                or leave it to the Output class
+ * @param    bool     $return  Whether to return the view output, or leave it to the Output class
  * @return    object|string
  */
 public function view($view, $vars = array(), $return = FALSE)
