@@ -92,5 +92,15 @@ public function segment_array()
 
 #### rsegment\_array\(\)
 
+```
+/**
+* 获取路由后数组
+* Routed Segment Array
+*
+* @return    array    CI_URI::$rsegments
+*/
+public function rsegment_array()
+```
+
 
 
