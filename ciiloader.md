@@ -88,5 +88,16 @@ public function helper($helpers)
 public function library($library, $params = NULL, $object_name = NULL)
 ```
 
+#### database\(\)
+
+```
+/**
+* 加载并实例化数据库类
+* Database Loader
+*
+* public function database()
+*/
+```
+
 
 
