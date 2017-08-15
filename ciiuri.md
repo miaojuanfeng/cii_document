@@ -15,7 +15,7 @@ URI类。
 | Method | Description |
 | :--- | :--- |
 | CII\_URI::\_\_construct\(\) | 构造函数 |
-| CII\_URI::segment\(\) | 返回segment数组 |
+| CII\_URI::segment\(\) | 获取路由分段 |
 | CII\_URI::rsegment\(\) | 返回rsegment数组 |
 | CII\_URI::segment\_array\(\) | 返回segment数组 |
 | CII\_URI::rsegment\_array\(\) | 获取rsegment数组 |
@@ -45,6 +45,7 @@ public function __construct()
 
 ```
 /**
+* 获取路由分段
 * Fetch URI Segment
 *
 * @see        CII_URI::$segments
