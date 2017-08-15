@@ -59,6 +59,7 @@ public function model($model, $name = '')
 
 ```
 /**
+* 加载函数
 * Helper Loader
 *
 * @param     string|string[]    $helpers    Helper name(s)
@@ -66,6 +67,24 @@ public function model($model, $name = '')
 * @return    object
 */
 public function helper($helpers)
+```
+
+#### library\(\)
+
+```
+/**
+* Library Loader
+*
+* Loads and instantiates libraries.
+* Designed to be called from application controllers.
+*
+* @param	string	$library	Library name
+* @param	array	$params		Optional parameters to pass to the library class constructor
+* @param	string	$object_name	An optional object name to assign to
+* @return	object
+*
+* public function library($library, $params = NULL, $object_name = NULL)
+*/
 ```
 
 
