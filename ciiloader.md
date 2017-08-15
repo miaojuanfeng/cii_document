@@ -43,10 +43,9 @@ public function __construct()
 *
 * Fetch member variables from controller if it's not defined in CII_Loader.
 *
-* @return    void
-*
-* public function __construct()
+* @return    object
 */
+public function __get()
 ```
 
 #### view\(\)
