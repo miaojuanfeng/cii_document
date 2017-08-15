@@ -21,7 +21,7 @@ URI类。
 | CII\_URI::rsegment\_array\(\) | 获取路由后数组 |
 | CII\_URI::total\_segments\(\) | 获取路由分段数量 |
 | CII\_URI::total\_rsegments\(\) | 获取路由后分段数量 |
-| CII\_URI::uri\_string\(\) | segment转为字符串 |
+| CII\_URI::uri\_string\(\) | 获取路由字符串 |
 | CII\_URI::ruri\_string\(\) | rsegment转为字符串 |
 | CII\_URI::slash\_segment\(\) | 返回去掉'/'后的segment数组 |
 | CII\_URI::slash\_rsegment\(\) | 返回去掉'/'后的rsegment数组 |
@@ -130,6 +130,7 @@ public function total_rsegments()
 
 ```
 /**
+* 获取路由字符串
 * Fetch URI string
 *
 * @return    string    CII_URI::$uri_string
