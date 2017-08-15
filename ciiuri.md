@@ -85,9 +85,8 @@ public function rsegment($n, $no_result = NULL)
 * Segment Array
 *
 * @return    array    CI_URI::$segments
-*
-* public function segment_array()
 */
+public function segment_array()
 ```
 
 
