@@ -67,12 +67,12 @@ public function segment($n, $no_result = NULL)
 * based on the index provided. If there is no routing, will return
 * the same result as CI_URI::segment().
 *
-* @see		CI_URI::$rsegments
-* @see		CI_URI::segment()
-* @param	int		$n		Index
-* @param	mixed		$no_result	What to return if the segment index is not found
+* @see        CI_URI::$rsegments
+* @see        CI_URI::segment()
+* @param      int        $n            Index
+* @param      mixed      $no_result    What to return if the segment index is not found
 *
-* @return	mixed
+* @return     mixed
 */
 public function rsegment($n, $no_result = NULL)
 ```
