@@ -233,7 +233,7 @@ public function uri_to_assoc($n = 3, $default = array())
 /**
 * Routed URI to assoc
 *
-* Identical to CI_URI::uri_to_assoc(), only it uses the re-routed
+* Identical to CII_URI::uri_to_assoc(), only it uses the re-routed
 * segment array.
 *
 * @see        CII_URI::uri_to_assoc()
