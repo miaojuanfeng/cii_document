@@ -229,5 +229,21 @@ public function uri_to_assoc($n = 3, $default = array())
 
 #### ruri\_to\_assoc\(\)
 
+```
+/**
+* Routed URI to assoc
+*
+* Identical to CI_URI::uri_to_assoc(), only it uses the re-routed
+* segment array.
+*
+* @see		CI_URI::uri_to_assoc()
+* @param 	int	$n		Index (default: 3)
+* @param 	array	$default	Default values
+*
+* @return 	array
+*/
+public function ruri_to_assoc($n = 3, $default = array())
+```
+
 
 
