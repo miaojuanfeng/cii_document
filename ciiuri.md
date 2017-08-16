@@ -192,9 +192,9 @@ public function slash_rsegment($n, $where = 't')
 *
 * Generates a URI string from an associative array.
 *
-* @param	array	$array	Input array of key/value pairs
+* @param     array     $array    Input array of key/value pairs
 *
-* @return	string	URI string
+* @return    string    URI string
 */
 public function assoc_to_uri($array)
 ```
