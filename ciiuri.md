@@ -209,20 +209,20 @@ public function assoc_to_uri($array)
 * Generates an associative array of URI data starting at the supplied
 * segment index. For example, if this is your URI:
 *
-*	example.com/user/search/name/joe/location/UK/gender/male
+* example.com/user/search/name/joe/location/UK/gender/male
 *
 * You can use this method to generate an array with this prototype:
 *
-*	array (
-*		name => joe
-*		location => UK
-*		gender => male
-*	 )
+*    array (
+*        name => joe
+*        location => UK
+*        gender => male
+*     )
 *
-* @param	int	$n		Index (default: 3)
-* @param	array	$default	Default values
+* @param    int    $n        Index (default: 3)
+* @param    array    $default    Default values
 *
-* @return	array
+* @return    array
 */
 public function uri_to_assoc($n = 3, $default = array())
 ```
