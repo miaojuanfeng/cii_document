@@ -169,6 +169,20 @@ public function slash_segment($n, $where = 't')
 
 #### slash\_rsegment\(\)
 
+```
+/**
+* Slash routed segment
+*
+* Fetches an URI routed segment with a slash.
+*
+* @param	int	$n	Index
+* @param	string	$where	Where to add the slash ('t' == 'trailing' or 'l' == 'leading')
+*
+* @return	string 
+*/
+public function slash_rsegment($n, $where = 't')
+```
+
 #### assoc\_to\_uri\(\)
 
 #### uri\_to\_assoc\(\)
