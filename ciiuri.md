@@ -152,6 +152,20 @@ public function ruri_string()
 
 #### slash\_segment\(\)
 
+```
+/**
+* Slash segment
+*
+* Fetches an URI segment with a slash.
+*
+* @param	int	$n	Index
+* @param	string	$where	Where to add the slash ('t' == 'trailing' or 'l' == 'leading')
+*
+* @return	string
+*/
+public function slash_segment($n, $where = 't')
+```
+
 #### slash\_rsegment\(\)
 
 #### assoc\_to\_uri\(\)
