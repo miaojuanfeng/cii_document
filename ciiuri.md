@@ -171,6 +171,7 @@ public function slash_segment($n, $where = 't')
 
 ```
 /**
+* 返回末尾加'/'的路由后分段
 * Slash routed segment
 *
 * Fetches an URI routed segment with a slash.
