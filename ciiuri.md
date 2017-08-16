@@ -154,7 +154,7 @@ public function ruri_string()
 
 ```
 /**
-*
+* 返回末尾加'/'的路由分段
 * Slash segment
 *
 * Fetches an URI segment with a slash.
