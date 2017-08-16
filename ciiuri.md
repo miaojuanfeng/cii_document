@@ -150,5 +150,15 @@ public function uri_string()
 public function ruri_string()
 ```
 
+#### slash\_segment\(\)
+
+#### slash\_rsegment\(\)
+
+#### assoc\_to\_uri\(\)
+
+#### uri\_to\_assoc\(\)
+
+#### ruri\_to\_assoc\(\)
+
 
 
