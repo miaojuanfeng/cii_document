@@ -188,6 +188,7 @@ public function slash_rsegment($n, $where = 't')
 
 ```
 /**
+* 数组转成uri字符串
 * Assoc to URI
 *
 * Generates a URI string from an associative array.
