@@ -41,6 +41,7 @@ public function __construct()
 * Set class name
 *
 * @param    string    $class    Class name
+*
 * @return    void
 */
 ```
