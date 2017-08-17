@@ -23,7 +23,6 @@
 
 ```
 /**
-* 构造函数
 * Class constructor
 *
 * Runs the route mapping function.
@@ -37,7 +36,6 @@ public function __construct()
 
 ```
 /**
-* 设置访问的控制器类名
 * Set class name
 *
 * @param    string    $class    Class name
@@ -51,7 +49,6 @@ public function set_class($class)
 
 ```
 /**
-* 获取访问的控制器类名
 * Fetch the current class
 *
 * @return    string
@@ -63,7 +60,6 @@ public function fetch_class()
 
 ```
 /**
-* 设置访问的控制器方法
 * Set method name
 *
 * @param     string    $method    Method name
@@ -77,7 +73,6 @@ public function set_method($method)
 
 ```
 /**
-* 获取访问的控制器方法
 * Fetch the current method
 *
 * @return    string
