@@ -48,9 +48,10 @@ public function initialize(array $params = array())
 
 ```
 /**
+* 创建分页链接
 * Generate the pagination links
 *
-* @return	string
+* @return    string
 */
 public function create_links()
 ```
