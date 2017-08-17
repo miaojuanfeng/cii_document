@@ -55,7 +55,7 @@ public function __get()
 *
 * Set member variables's value no mater it's defined or not.
 *
-* @return    mixed
+* @return    void
 */
 public function __set()
 ```
