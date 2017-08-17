@@ -53,8 +53,9 @@ public function set_class($class)
 /**
 * Fetch the current class
 *
-* @return	string
+* @return    string
 */
+public function fetch_class()
 ```
 
 #### set\_method\(\)
