@@ -79,13 +79,56 @@ public function __set()
 
 #### tempdata\(\)
 
-
+```
+/**
+ * Temp data (fetch)
+ *
+ * Legacy CI_Session compatibility method
+ *
+ * @param	string	$key	Session data key
+ * @return	mixed	Session data value or NULL if not found
+ */
+```
 
 #### set\_userdata\(\)
 
+```
+/**
+ * Set userdata
+ *
+ * Legacy CI_Session compatibility method
+ *
+ * @param	mixed	$data	Session data key or an associative array
+ * @param	mixed	$value	Value to store
+ * @return	void
+ */
+```
+
 #### userdata\(\)
 
+```
+/**
+ * Userdata (fetch)
+ *
+ * Legacy CI_Session compatibility method
+ *
+ * @param	string	$key	Session data key
+ * @return	mixed	Session data value or NULL if not found
+ */
+```
+
 #### unset\_userdata\(\)
+
+```
+/**
+ * Unset userdata
+ *
+ * Legacy CI_Session compatibility method
+ *
+ * @param	mixed	$data	Session data key(s)
+ * @return	void
+ */
+```
 
 
 
