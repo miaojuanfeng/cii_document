@@ -60,7 +60,7 @@ public function __get()
 public function __set()
 ```
 
-set\_tempdata\(\)
+#### set\_tempdata\(\)
 
 ```
 /**
@@ -75,6 +75,20 @@ set\_tempdata\(\)
  */
  public function set_tempdata($key, $value = NULL, $ttl = 300)
 ```
+
+#### tempdata\(\)
+
+
+
+#### set\_userdata\(\)
+
+
+
+#### userdata\(\)
+
+
+
+#### unset\_userdata\(\)
 
 
 
