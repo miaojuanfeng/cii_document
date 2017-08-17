@@ -13,9 +13,9 @@ Session类。
 | Method | Description |
 | :--- | :--- |
 | CII\_Session::\_\_construct\(\) | 构造函数 |
-| CII\_Session::\_\_get\(\) | 魔术方法，从CII\_Session类中获取成员变量 |
-| CII\_Session::\_\_set\(\) | 魔术方法，设置CII\_Session类中成员变量的值 |
-| CII\_Session::set\_tempdata\(\) | 设置临时数据 |
+| CII\_Session::\_\_get\(\) | 魔术方法，从 CII\_Session 类中获取成员变量 |
+| CII\_Session::\_\_set\(\) | 魔术方法，设置 CII\_Session 类中成员变量的值 |
+| CII\_Session::set\_tempdata\(\) | 设置带有有效时间的 session 数据 |
 | CII\_Session::tempdata\(\) | 获取临时数据 |
 | CII\_Session::set\_userdata\(\) | 设置用户数据 |
 | CII\_Session::userdata\(\) | 获取用户数据 |
