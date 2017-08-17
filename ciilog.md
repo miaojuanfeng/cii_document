@@ -19,7 +19,6 @@
 
 ```
 /**
-* 构造函数
 * Class constructor
 *
 * @return    void
@@ -31,7 +30,6 @@ public function __construct()
 
 ```
 /**
-* 写日志
 * Write Log File
 *
 * Generally this function will be called using the global log_message() function
