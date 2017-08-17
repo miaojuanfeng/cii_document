@@ -58,12 +58,12 @@ public function post($index = NULL)
 
 ```
 /**
- * Fetch an item from the GET array
- *
- * @param	mixed	$index		Index for item to be fetched from $_GET
- * @param	bool	$xss_clean	Whether to apply XSS filtering
- * @return	mixed
- */
+* Fetch an item from the GET array
+*
+* @param    mixed    $index        Index for item to be fetched from $_GET
+* @param    bool    $xss_clean    Whether to apply XSS filtering
+* @return    mixed
+*/
 ```
 
 #### post\_get\(\)
