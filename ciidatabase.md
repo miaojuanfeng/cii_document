@@ -124,15 +124,25 @@ public function where($key, $value = NULL)
 /**
 * ORDER BY
 *
-* @param	string	$orderby
-* @param	string	$direction	ASC, DESC or RANDOM
+* @param    string    $orderby
+* @param    string    $direction    ASC, DESC or RANDOM
 *
-* @return	CI_DB_query_builder
+* @return    CI_DB_query_builder
 */
 public function order_by($orderby, $direction = '')
 ```
 
 #### limit\(\)
+
+```
+/**
+* LIMIT
+*
+* @param	int	$value	LIMIT value
+* @param	int	$offset	OFFSET value
+* @return	CI_DB_query_builder
+*/
+```
 
 #### get\(\)
 
