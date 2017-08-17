@@ -76,6 +76,15 @@ public function query($sql)
 
 #### affected\_rows\(\)
 
+```
+/**
+* Affected Rows
+*
+* @return	int
+*/
+public function affected_rows()
+```
+
 #### select\(\)
 
 #### where\(\)
