@@ -63,6 +63,7 @@ public function fetch_class()
 
 ```
 /**
+* 设置访问的控制器方法
 * Set method name
 *
 * @param     string    $method    Method name
