@@ -57,7 +57,7 @@ public function __get()
 *
 * @return    mixed
 */
-public function __get()
+public function __set()
 ```
 
 
