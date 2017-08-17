@@ -85,8 +85,8 @@ public function __set()
  *
  * Legacy CI_Session compatibility method
  *
- * @param	string	$key	Session data key
- * @return	mixed	Session data value or NULL if not found
+ * @param    string    $key    Session data key
+ * @return    mixed    Session data value or NULL if not found
  */
 ```
 
@@ -98,9 +98,9 @@ public function __set()
  *
  * Legacy CI_Session compatibility method
  *
- * @param	mixed	$data	Session data key or an associative array
- * @param	mixed	$value	Value to store
- * @return	void
+ * @param    mixed    $data     Session data key or an associative array
+ * @param    mixed    $value    Value to store
+ * @return    void
  */
 ```
 
@@ -112,8 +112,8 @@ public function __set()
  *
  * Legacy CI_Session compatibility method
  *
- * @param	string	$key	Session data key
- * @return	mixed	Session data value or NULL if not found
+ * @param    string    $key      Session data key
+ * @return    mixed    Session   data value or NULL if not found
  */
 ```
 
@@ -125,8 +125,8 @@ public function __set()
  *
  * Legacy CI_Session compatibility method
  *
- * @param	mixed	$data	Session data key(s)
- * @return	void
+ * @param    mixed    $data    Session data key(s)
+ * @return    void
  */
 ```
 
