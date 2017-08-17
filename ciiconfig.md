@@ -67,8 +67,6 @@ public function slash_item($item)
 *
 * Returns base_url . index_page [. uri_string]
 *
-* @uses    CI_Config::_uri_string()
-*
 * @param     string|string[]    $uri    URI string or an array of segments
 *
 * @return    string
