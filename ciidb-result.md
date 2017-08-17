@@ -35,6 +35,15 @@ public function __construct()
 
 #### result\(\)
 
+```
+/**
+* Query result. Acts as a wrapper function for the following functions.
+*
+* @param	string	$type	'object', 'array' or a custom class name
+* @return	array
+*/
+```
+
 #### result\_array\(\)
 
 #### row\_array\(\)
