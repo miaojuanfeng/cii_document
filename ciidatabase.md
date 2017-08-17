@@ -109,11 +109,13 @@ public function select($select = '*')
 * Generates the WHERE portion of the query.
 * Separates multiple calls with 'AND'.
 *
-* @param	mixed
-* @param	mixed
-* @param	bool
-* @return	CI_DB_query_builder
+* @param    mixed
+* @param    mixed
+* @param    bool
+*
+* @return   CI_DB_query_builder
 */
+public function where($key, $value = NULL)
 ```
 
 #### order\_by\(\)
