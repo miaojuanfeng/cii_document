@@ -81,5 +81,17 @@ public function get_output()
 
 #### set\_output\(\)
 
+```
+/**
+* Set Output
+*
+* Sets the output string.
+*
+* @param	string	$output	Output data
+* @return	CI_Output
+*/
+public function set_output($output)
+```
+
 
 
