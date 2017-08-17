@@ -129,6 +129,7 @@ public function userdata($key = NULL)
 
 ```
 /**
+* 从 $_SESSION 全局变量中删除某个值
 * Unset userdata
 *
 * Legacy CI_Session compatibility method
