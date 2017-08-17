@@ -35,9 +35,9 @@
 * Determines whether to globally enable the XSS processing
 * and whether to allow the $_GET array.
 *
-* @return	void
+* @return    void
 */
-
+public function __construct()
 ```
 
 #### post\(\)
