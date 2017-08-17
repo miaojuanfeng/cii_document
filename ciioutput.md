@@ -18,5 +18,25 @@
 | CII\_Output::get\_output\(\) | 返回缓冲区里的字符串 |
 | CII\_Output::set\_output\(\) | 设置缓冲区内容 |
 
+#### \_\_construct\(\)
+
+```
+/**
+* Class constructor
+*
+* Determines whether zLib output compression will be used.
+*
+* @return	void
+*/
+```
+
+#### append\_output\(\)
+
+#### display\(\)
+
+#### get\_output\(\)
+
+#### set\_output\(\)
+
 
 
