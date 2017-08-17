@@ -31,6 +31,18 @@ public function __construct()
 
 #### mark\(\)
 
+```
+/**
+* Set a benchmark marker
+*
+* Multiple calls to this function can be made so that several
+* execution points can be timed.
+*
+* @param	string	$name	Marker name
+* @return	void
+*/
+```
+
 #### elapsed\_time\(\)
 
 #### memory\_usage\(\)
