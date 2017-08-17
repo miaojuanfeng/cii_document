@@ -81,12 +81,27 @@ public function elapsed_time($point1 = '', $point2 = '', $decimals = 4)
 * without the memory being calculated until the end.
 * The output class will swap the real value for this variable.
 *
-* @return	string	'{memory_usage}'
+* @return    string    '{memory_usage}'
 */
 public function memory_usage()
 ```
 
 #### memory\_peak\(\)
+
+```
+/**
+* Memory Peak
+*
+* Simply returns the {memory_peak} marker.
+*
+* This permits it to be put it anywhere in a template
+* without the memory being calculated until the end.
+* The output class will swap the real value for this variable.
+*
+* @return    string    '{memory_peak}'
+*/
+public function memory_peak()
+```
 
 
 
