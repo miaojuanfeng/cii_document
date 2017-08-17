@@ -23,6 +23,7 @@
 
 ```
 /**
+* 构造函数
 * Class constructor
 *
 * Runs the route mapping function.
