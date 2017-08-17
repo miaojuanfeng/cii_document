@@ -48,6 +48,15 @@ public function result($type = 'object')
 
 #### result\_array\(\)
 
+```
+/**
+* Query result. "array" version.
+*
+* @return	array
+*/
+public function result_array()
+```
+
 #### row\_array\(\)
 
 #### num\_rows\(\)
