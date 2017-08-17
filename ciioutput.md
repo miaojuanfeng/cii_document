@@ -87,6 +87,7 @@ public function get_output()
 
 ```
 /**
+* 设置缓冲区内容
 * Set Output
 *
 * Sets the output string.
