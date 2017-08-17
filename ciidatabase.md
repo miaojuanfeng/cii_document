@@ -268,12 +268,12 @@ public function group_end()
 * Generates the WHERE portion of the query.
 * Separates multiple calls with 'OR'.
 *
-* @param	mixed
-* @param	mixed
-* @param	bool
-* @return	CI_DB_query_builder
+* @param    mixed
+* @param    mixed
+*
+* @return    CI_DB_query_builder
 */
-public function or_where($key, $value = NULL, $escape = NULL)
+public function or_where($key, $value = NULL)
 ```
 
 
