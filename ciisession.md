@@ -41,7 +41,7 @@ public function __construct()
 *
 * Fetch member variables from CII_Session no mater it's defined or not.
 *
-* @return    object
+* @return    mixed
 */
 public function __get()
 ```
