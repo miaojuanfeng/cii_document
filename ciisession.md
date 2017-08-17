@@ -18,7 +18,7 @@ Session类。
 | CII\_Session::set\_tempdata\(\) | 设置带有有效时间的 session 数据 |
 | CII\_Session::tempdata\(\) | 获取带有有效时间的 session 数据 |
 | CII\_Session::set\_userdata\(\) | 设置用户数据，这是个遗留方法。 |
-| CII\_Session::userdata\(\) | 获取用户数据 |
+| CII\_Session::userdata\(\) | 从 $\_SESSION 数组中获取指定的项。无参数返回所有项。 |
 | CII\_Session::unset\_userdata\(\) | 删除用户数据 |
 
 #### \_\_construct\(\)
