@@ -21,12 +21,25 @@
 /**
 * Class constructor
 *
-* @return	void
+* @return    void
 */
 public function __construct()
 ```
 
 #### write\_log\(\)
+
+```
+/**
+* Write Log File
+*
+* Generally this function will be called using the global log_message() function
+*
+* @param	string	the error level: 'error', 'debug' or 'info'
+* @param	string	the error message
+* @return	bool
+*/
+public function write_log($level, $msg)
+```
 
 
 
