@@ -37,8 +37,6 @@ public function __construct()
 *
 * Calls a particular hook. Called by CodeIgniter.php.
 *
-* @uses    CI_Hooks::_run_hook()
-*
 * @param     string    $which    Hook name
 *
 * @return    bool      TRUE on success or FALSE on failure
