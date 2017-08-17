@@ -28,8 +28,9 @@
 /**
 * Constructor
 *
-* @return	void
+* @return    void
 */
+public function __construct()
 ```
 
 #### result\(\)
