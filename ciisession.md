@@ -64,30 +64,31 @@ public function __set()
 
 ```
 /**
- * Set tempdata
- *
- * Legacy CII_Session compatibility method
- *
- * @param    mixed    $key      Session data key
- * @param    mixed    $value    Value to store
- * @param    int      $ttl      Time-to-live in seconds
- *
- * @return   void
- */
- public function set_tempdata($key, $value = NULL, $ttl = 300)
+* Set tempdata
+*
+* Legacy CII_Session compatibility method
+*
+* @param    mixed    $key      Session data key
+* @param    mixed    $value    Value to store
+* @param    int      $ttl      Time-to-live in seconds
+*
+* @return   void
+*/
+public function set_tempdata($key, $value = NULL, $ttl = 300)
 ```
 
 #### tempdata\(\)
 
 ```
 /**
- * Temp data (fetch)
- *
- * Legacy CI_Session compatibility method
- *
- * @param    string    $key    Session data key
- * @return    mixed    Session data value or NULL if not found
- */
+* 获取带有有效时间的 session 数据
+* Temp data (fetch)
+*
+* Legacy CI_Session compatibility method
+*
+* @param    string    $key    Session data key
+* @return    mixed    Session data value or NULL if not found
+*/
 ```
 
 #### set\_userdata\(\)
