@@ -63,7 +63,7 @@ public function append_output($output)
 * 
 * @return    void
 */
-public function _display()
+public function display()
 ```
 
 #### get\_output\(\)
