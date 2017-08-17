@@ -68,11 +68,11 @@ public function __construct()
 * FALSE upon failure, and if the $db_debug variable is set to TRUE
 * will raise an error.
 *
-* @param	string	$sql
+* @param    string    $sql
 *
-* @return	mixed
+* @return    mixed
 */
-public function query($sql, $binds = FALSE, $return_object = NULL)
+public function query($sql)
 ```
 
 #### affected\_rows\(\)
