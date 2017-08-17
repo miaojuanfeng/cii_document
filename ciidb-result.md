@@ -72,5 +72,14 @@ public function row_array($n = 0)
 
 #### num\_rows\(\)
 
+```
+/**
+* Number of rows in the result set
+*
+* @return	int
+*/
+
+```
+
 
 
