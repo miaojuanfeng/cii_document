@@ -52,8 +52,9 @@ public function item($item, $index = '')
 /**
 * Fetch a config file item with slash appended (if not empty)
 *
-* @param	string		$item	Config item name
-* @return	string|null	The configuration item or NULL if the item doesn't exist
+* @param     string         $item    Config item name
+*
+* @return    string|null    The configuration item or NULL if the item doesn't exist
 */
 public function slash_item($item)
 ```
