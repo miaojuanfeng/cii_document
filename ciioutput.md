@@ -26,8 +26,9 @@
 *
 * Determines whether zLib output compression will be used.
 *
-* @return	void
+* @return    void
 */
+public function __construct()
 ```
 
 #### append\_output\(\)
