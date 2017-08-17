@@ -91,6 +91,7 @@ public function set_tempdata($key, $value = NULL, $ttl = 300)
 * @param    string    $key    Session data key
 * @return    mixed    Session data value or NULL if not found
 */
+public function tempdata($key = NULL)
 ```
 
 #### set\_userdata\(\)
