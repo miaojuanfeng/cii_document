@@ -61,6 +61,15 @@ public function fetch_class()
 
 #### set\_method\(\)
 
+```
+/**
+* Set method name
+*
+* @param	string	$method	Method name
+* @return	void
+*/
+```
+
 #### fetch\_method\(\)
 
 
