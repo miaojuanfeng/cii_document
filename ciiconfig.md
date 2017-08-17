@@ -95,10 +95,12 @@ public function base_url($uri = '')
 /**
 * Set a config file item
 *
-* @param	string	$item	Config item key
-* @param	string	$value	Config item value
-* @return	void
+* @param    string    $item    Config item key
+* @param    string    $value    Config item value
+*
+* @return    void
 */
+public function set_item($item, $value)
 ```
 
 
