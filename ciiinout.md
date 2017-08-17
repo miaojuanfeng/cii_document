@@ -151,6 +151,14 @@ public function is_get()
 
 #### user\_agent\(\)
 
+```
+/**
+* Fetch User Agent string
+*
+* @return	string|null	User Agent string or NULL if it doesn't exist
+*/
+```
+
 #### method\(\)
 
 #### ip\_address\(\)
