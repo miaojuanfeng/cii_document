@@ -45,37 +45,46 @@
 | CII\_Database::group\_end\(\) | 构造查询条件\) |
 | CII\_Database::or\_where\(\) | 构造where ... or ... 查询条件 |
 
-\_\_construct\(\)
+#### \_\_construct\(\)
 
-query\(\)
+```
+/**
+* Constructor
+*
+* @return    void
+*/
+public function __construct()
+```
 
-affected\_rows\(\)
+#### query\(\)
 
-select\(\)
+#### affected\_rows\(\)
 
-where\(\)
+#### select\(\)
 
-order\_by\(\)
+#### where\(\)
 
-limit\(\)
+#### order\_by\(\)
 
-get\(\)
+#### limit\(\)
 
-insert\(\)
+#### get\(\)
 
-update\(\)
+#### insert\(\)
 
-delete\(\)
+#### update\(\)
 
-last\_query\(\)
+#### delete\(\)
 
-insert\_id\(\)
+#### last\_query\(\)
 
-group\_start\(\)
+#### insert\_id\(\)
 
-group\_end\(\)
+#### group\_start\(\)
 
-or\_where\(\)
+#### group\_end\(\)
+
+#### or\_where\(\)
 
 
 
