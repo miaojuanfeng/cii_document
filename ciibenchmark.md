@@ -39,6 +39,7 @@ public function __construct()
 * execution points can be timed.
 *
 * @param     string    $name    Marker name
+*
 * @return    void
 */
 public function mark($name)
