@@ -34,9 +34,9 @@ public function __construct()
 *
 * Generally this function will be called using the global log_message() function
 *
-* @param	string	the error level: 'error', 'debug' or 'info'
-* @param	string	the error message
-* @return	bool
+* @param    string    the error level: 'error', 'debug' or 'info'
+* @param    string    the error message
+* @return   bool
 */
 public function write_log($level, $msg)
 ```
