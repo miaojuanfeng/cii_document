@@ -82,8 +82,6 @@ public function site_url($uri = '')
 *
 * Returns base_url [. uri_string]
 *
-* @uses    CI_Config::_uri_string()
-*
 * @param     string|string[]    $uri    URI string or an array of segments
 *
 * @return    string
