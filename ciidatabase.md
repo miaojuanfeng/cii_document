@@ -250,6 +250,14 @@ public function group_start()
 
 #### group\_end\(\)
 
+```
+/**
+* Ends a query group
+*
+* @return	void
+*/
+```
+
 #### or\_where\(\)
 
 
