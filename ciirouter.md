@@ -44,6 +44,7 @@ public function __construct()
 *
 * @return    void
 */
+public function set_class($class)
 ```
 
 #### fetch\_class\(\)
