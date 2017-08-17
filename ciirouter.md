@@ -65,8 +65,8 @@ public function fetch_class()
 /**
 * Set method name
 *
-* @param	string	$method	Method name
-* @return	void
+* @param     string    $method    Method name
+* @return    void
 */
 ```
 
