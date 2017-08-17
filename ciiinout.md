@@ -81,6 +81,16 @@ public function post_get($index)
 
 #### get\_post\(\)
 
+```
+/**
+* Fetch an item from GET data with fallback to POST
+*
+* @param	string	$index		Index for item to be fetched from $_GET or $_POST
+* @param	bool	$xss_clean	Whether to apply XSS filtering
+* @return	mixed
+*/
+```
+
 #### num\_post\(\)
 
 #### num\_get\(\)
