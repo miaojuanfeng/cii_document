@@ -183,8 +183,9 @@ public function method($upper = FALSE)
 *
 * Determines and validates the visitor's IP address.
 *
-* @return	string	IP address
+* @return    string    IP address
 */
+public function ip_address()
 ```
 
 
