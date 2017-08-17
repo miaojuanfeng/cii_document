@@ -177,5 +177,15 @@ public function method($upper = FALSE)
 
 #### ip\_address\(\)
 
+```
+/**
+* Fetch the IP Address
+*
+* Determines and validates the visitor's IP address.
+*
+* @return	string	IP address
+*/
+```
+
 
 
