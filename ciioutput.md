@@ -57,12 +57,13 @@ public function append_output($output)
 * timers so the page rendering speed and memory usage can be shown.
 *
 * Note: All "view" data is automatically put into $this->final_output
-*	 by controller class.
+*     by controller class.
 *
-* @uses	CI_Output::$final_output
-* @param	string	$output	Output data override
-* @return	void
+* @uses    CI_Output::$final_output
+* 
+* @return    void
 */
+public function _display()
 ```
 
 #### get\_output\(\)
