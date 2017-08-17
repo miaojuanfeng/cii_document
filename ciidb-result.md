@@ -40,6 +40,7 @@ public function __construct()
 * Query result. Acts as a wrapper function for the following functions.
 *
 * @param     string    $type    'object', 'array' or a custom class name
+*
 * @return    array
 */
 public function result($type = 'object')
