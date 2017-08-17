@@ -232,12 +232,24 @@ public function last_query()
 /**
 * Insert ID
 *
-* @return	int
+* @return    int
 */
 public function insert_id()
 ```
 
 #### group\_start\(\)
+
+```
+/**
+* Starts a query group.
+*
+* @param	string	$not	(Internal use only)
+* @param	string	$type	(Internal use only)
+*
+* @return	void
+*/
+public function group_start($not = '', $type = 'AND ')
+```
 
 #### group\_end\(\)
 
