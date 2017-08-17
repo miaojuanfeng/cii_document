@@ -22,11 +22,14 @@
 
 ```
 /**
+* 构造函数
 * Constructor
 *
-* @param	array	$params	Initialization parameters
-* @return	void
+* @param    array    $params    Initialization parameters
+*
+* @return    void
 */
+
 ```
 
 #### initialize\(\)
