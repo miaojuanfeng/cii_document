@@ -172,6 +172,7 @@ public function user_agent()
 *
 * @return     string
 */
+public function method($upper = FALSE)
 ```
 
 #### ip\_address\(\)
