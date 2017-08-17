@@ -51,6 +51,7 @@ public function set_class($class)
 
 ```
 /**
+* 获取访问的控制器类名
 * Fetch the current class
 *
 * @return    string
