@@ -35,6 +35,15 @@ public function __construct()
 
 #### set\_class\(\)
 
+```
+/**
+* Set class name
+*
+* @param	string	$class	Class name
+* @return	void
+*/
+```
+
 #### fetch\_class\(\)
 
 #### set\_method\(\)
