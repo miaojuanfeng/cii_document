@@ -40,12 +40,30 @@ public function __construct()
 * Appends data onto the output string.
 *
 * @param     string      $output    Data to append
+*
 * @return    CI_Output
 */
 public function append_output($output)
 ```
 
 #### display\(\)
+
+```
+/**
+* Display Output
+*
+* Processes and sends finalized output data to the browser along
+* with any server headers and profile data. It also stops benchmark
+* timers so the page rendering speed and memory usage can be shown.
+*
+* Note: All "view" data is automatically put into $this->final_output
+*	 by controller class.
+*
+* @uses	CI_Output::$final_output
+* @param	string	$output	Output data override
+* @return	void
+*/
+```
 
 #### get\_output\(\)
 
