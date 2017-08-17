@@ -169,6 +169,7 @@ public function user_agent()
 * Return the request method
 *
 * @param      bool    $upper    Whether to return in upper or lower case. (default: FALSE)
+*
 * @return     string
 */
 ```
