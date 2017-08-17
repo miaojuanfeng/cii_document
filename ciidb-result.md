@@ -42,6 +42,7 @@ public function __construct()
 * @param     string    $type    'object', 'array' or a custom class name
 * @return    array
 */
+public function result($type = 'object')
 ```
 
 #### result\_array\(\)
