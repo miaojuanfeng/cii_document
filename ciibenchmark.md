@@ -38,8 +38,8 @@ public function __construct()
 * Multiple calls to this function can be made so that several
 * execution points can be timed.
 *
-* @param	string	$name	Marker name
-* @return	void
+* @param     string    $name    Marker name
+* @return    void
 */
 ```
 
