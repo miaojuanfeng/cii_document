@@ -36,7 +36,7 @@ public function __construct()
 
 ```
 /**
-* Fetch a config file item
+* Fetch a config item
 *
 * @param    string         $item     Config item name
 * @param    string         $index    Index name
@@ -50,7 +50,7 @@ public function item($item, $index = '')
 
 ```
 /**
-* Fetch a config file item with slash appended (if not empty)
+* Fetch a config item with slash appended (if not empty)
 *
 * @param     string         $item    Config item name
 *
