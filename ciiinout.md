@@ -72,9 +72,9 @@ public function get($index = NULL)
 /**
 * Fetch an item from POST data with fallback to GET
 *
-* @param	string	$index		Index for item to be fetched from $_POST or $_GET
-* @param	bool	$xss_clean	Whether to apply XSS filtering
-* @return	mixed
+* @param     string    $index        Index for item to be fetched from $_POST or $_GET
+* @param     bool      $xss_clean    Whether to apply XSS filtering
+* @return    mixed
 */
 public function post_get($index, $xss_clean = NULL)
 ```
