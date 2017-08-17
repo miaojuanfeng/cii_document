@@ -166,6 +166,21 @@ public function get($table = '', $limit = NULL, $offset = NULL)
 
 #### insert\(\)
 
+```
+/**
+* Insert
+*
+* Compiles an insert string and runs the query
+*
+* @param	string	the table to insert data into
+* @param	array	an associative array of insert values
+* @param	bool	$escape	Whether to escape values and identifiers
+*
+* @return	object
+*/
+public function insert($table = '', $set = NULL, $escape = NULL)
+```
+
 #### update\(\)
 
 #### delete\(\)
