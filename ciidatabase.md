@@ -93,10 +93,11 @@ public function affected_rows()
 *
 * Generates the SELECT portion of the query
 *
-* @param	string
-* @param	mixed
-* @return	CI_DB_query_builder
+* @param    string
+* 
+* @return    CI_DB_query_builder
 */
+public function select($select = '*')
 ```
 
 #### where\(\)
