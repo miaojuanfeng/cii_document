@@ -114,6 +114,7 @@ public function set_userdata($data, $value = NULL)
 
 ```
 /**
+* 从 $_SESSION 数组中获取指定的项
 * Userdata (fetch)
 *
 * Legacy CII_Session compatibility method
