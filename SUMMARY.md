@@ -4,6 +4,7 @@
 
 * [简介](README.md)
 * [伪继承](wei-ji-cheng.md)
+* [重载成员](zhong-zai-cheng-yuan.md)
 
 ## 编译安装
 
