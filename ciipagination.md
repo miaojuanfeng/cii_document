@@ -18,5 +18,13 @@
 | CII\_Pagination::initialize\(\) | 初始化分页对象 |
 | CII\_Pagination::create\_links\(\) | 创建分页链接 |
 
+#### \_\_construct\(\)
+
+
+
+#### initialize\(\)
+
+#### create\_links\(\)
+
 
 
