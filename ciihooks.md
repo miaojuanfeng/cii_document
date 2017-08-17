@@ -37,11 +37,11 @@ public function __construct()
 *
 * Calls a particular hook. Called by CodeIgniter.php.
 *
-* @uses	CI_Hooks::_run_hook()
+* @uses    CI_Hooks::_run_hook()
 *
-* @param	string	$which	Hook name
+* @param     string    $which    Hook name
 *
-* @return	bool	TRUE on success or FALSE on failure
+* @return    bool      TRUE on success or FALSE on failure
 */
 public function call_hook($which = '')
 ```
