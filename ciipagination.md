@@ -25,8 +25,6 @@
 * 构造函数
 * Constructor
 *
-* @param    array    $params    Initialization parameters
-*
 * @return    void
 */
 public function __construct()
