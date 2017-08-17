@@ -63,9 +63,11 @@ public function result_array()
 /**
 * Returns a single result row - array version
 *
-* @param	int	$n
-* @return	array
+* @param     int    $n
+*
+* @return    array
 */
+public function row_array($n = 0)
 ```
 
 #### num\_rows\(\)
