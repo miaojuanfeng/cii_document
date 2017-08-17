@@ -22,5 +22,23 @@
 | CII\_DB\_result::row\_array\(\) | 返回单独一行结果。如果你的查询不止一行结果，它只返回第一行。返回的结果是数组形式 |
 | CII\_DB\_result::num\_rows\(\) | 返回查询结果的行数 |
 
+#### \_\_construct\(\)
+
+```
+/**
+* Constructor
+*
+* @return	void
+*/
+```
+
+#### result\(\)
+
+#### result\_array\(\)
+
+#### row\_array\(\)
+
+#### num\_rows\(\)
+
 
 
