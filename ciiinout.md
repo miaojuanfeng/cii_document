@@ -64,6 +64,7 @@ public function post($index = NULL)
 * @param    bool    $xss_clean    Whether to apply XSS filtering
 * @return    mixed
 */
+public function get($index = NULL)
 ```
 
 #### post\_get\(\)
