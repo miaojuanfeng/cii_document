@@ -32,6 +32,15 @@ public function __construct()
 
 #### initialize\(\)
 
+```
+/**
+* Initialize Preferences
+*
+* @param	array	$params	Initialization parameters
+* @return	CI_Pagination
+*/
+```
+
 #### create\_links\(\)
 
 
