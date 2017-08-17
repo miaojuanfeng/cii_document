@@ -51,9 +51,9 @@ public function load($langfile, $idiom = '', $is_return)
 *
 * Fetches a single line of text from the language array
 *
-* @param	string	$line		Language line key
+* @param     string    $line        Language line key
 *
-* @return	string	Translation
+* @return    string    Translation
 */
 public function line($line)
 ```
