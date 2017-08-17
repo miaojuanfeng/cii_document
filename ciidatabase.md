@@ -138,10 +138,11 @@ public function order_by($orderby, $direction = '')
 /**
 * LIMIT
 *
-* @param	int	$value	LIMIT value
-* @param	int	$offset	OFFSET value
-* @return	CI_DB_query_builder
+* @param    int    $value    LIMIT value
+* @param    int    $offset    OFFSET value
+* @return    CI_DB_query_builder
 */
+public function limit($value, $offset = 0)
 ```
 
 #### get\(\)
