@@ -120,6 +120,18 @@ public function where($key, $value = NULL)
 
 #### order\_by\(\)
 
+```
+/**
+* ORDER BY
+*
+* @param	string	$orderby
+* @param	string	$direction	ASC, DESC or RANDOM
+*
+* @return	CI_DB_query_builder
+*/
+public function order_by($orderby, $direction = '')
+```
+
 #### limit\(\)
 
 #### get\(\)
