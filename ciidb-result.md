@@ -76,9 +76,9 @@ public function row_array($n = 0)
 /**
 * Number of rows in the result set
 *
-* @return	int
+* @return    int
 */
-
+public function num_rows()
 ```
 
 
