@@ -32,5 +32,19 @@ Session类。
 public function __construct()
 ```
 
+\_\_get\(\)
+
+```
+/**
+* 从CII_Session类中获取成员变量
+* Magic method 
+*
+* Fetch member variables from Controller if it's not defined in CII_Loader.
+*
+* @return    object
+*/
+public function __get()
+```
+
 
 
