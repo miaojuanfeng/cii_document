@@ -21,7 +21,6 @@
 
 ```
 /**
-* 构造函数
 * Class constructor
 *
 * @return    void
@@ -33,7 +32,6 @@ public function __construct()
 
 ```
 /**
-* 加载语言文件
 * Load a language file
 *
 * @param    mixed     $langfile      Language file name
@@ -49,7 +47,6 @@ public function load($langfile, $idiom = '', $is_return)
 
 ```
 /**
-* 获取一个词汇在当前语言下的翻译
 * Language line
 *
 * Fetches a single line of text from the language array
