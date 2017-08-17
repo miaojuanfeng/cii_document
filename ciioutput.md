@@ -73,6 +73,7 @@ public function display()
 
 ```
 /**
+* 返回缓冲区里的字符串
 * Get Output
 *
 * Returns the current output string.
