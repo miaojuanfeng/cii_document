@@ -18,5 +18,24 @@
 | CII\_Benchmark::memory\_usage\(\) | 返回内存使用量 |
 | CII\_Benchmark::memory\_peak\(\) | 返回内存使用峰值 |
 
+#### \_\_construct\(\)
+
+```
+/**
+* Class constructor
+*
+* @return    void
+*/
+public function __construct()
+```
+
+#### mark\(\)
+
+#### elapsed\_time\(\)
+
+#### memory\_usage\(\)
+
+#### memory\_peak\(\)
+
 
 
