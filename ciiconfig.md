@@ -70,7 +70,7 @@ public function slash_item($item)
 * @uses    CI_Config::_uri_string()
 *
 * @param     string|string[]    $uri    URI string or an array of segments
-* @param     string    $protocol
+* @param     string             $protocol
 *
 * @return    string
 */
