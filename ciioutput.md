@@ -68,6 +68,16 @@ public function display()
 
 #### get\_output\(\)
 
+```
+/**
+* Get Output
+*
+* Returns the current output string.
+*
+* @return	string
+*/
+```
+
 #### set\_output\(\)
 
 
