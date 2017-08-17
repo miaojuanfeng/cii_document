@@ -102,6 +102,20 @@ public function select($select = '*')
 
 #### where\(\)
 
+```
+/**
+* WHERE
+*
+* Generates the WHERE portion of the query.
+* Separates multiple calls with 'AND'.
+*
+* @param	mixed
+* @param	mixed
+* @param	bool
+* @return	CI_DB_query_builder
+*/
+```
+
 #### order\_by\(\)
 
 #### limit\(\)
