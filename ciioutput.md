@@ -22,7 +22,6 @@
 
 ```
 /**
-* 构造函数
 * Class constructor
 *
 * Determines whether zLib output compression will be used.
@@ -36,7 +35,6 @@ public function __construct()
 
 ```
 /**
-* 追加输出字符串到缓冲区
 * Append Output
 *
 * Appends data onto the output string.
@@ -52,7 +50,6 @@ public function append_output($output)
 
 ```
 /**
-* 输出缓冲区里的内容
 * Display Output
 *
 * Processes and sends finalized output data to the browser along
@@ -73,7 +70,6 @@ public function display()
 
 ```
 /**
-* 返回缓冲区里的字符串
 * Get Output
 *
 * Returns the current output string.
@@ -87,7 +83,6 @@ public function get_output()
 
 ```
 /**
-* 设置缓冲区内容
 * Set Output
 *
 * Sets the output string.
