@@ -25,7 +25,6 @@
 
 ```
 /**
-* 构造函数
 * Class constructor
 *
 * Runs the route mapping function.
@@ -39,7 +38,6 @@ public function __construct()
 
 ```
 /**
-* 从控制器中获取成员变量
 * Magic method 
 *
 * Fetch member variables from Controller if it's not defined in CII_Loader.
@@ -53,7 +51,6 @@ public function __get()
 
 ```
 /**
-* 加载视图
 * View Loader
 * 
 * Loads "view" files.
@@ -71,7 +68,6 @@ public function view($view, $vars = array(), $return = FALSE)
 
 ```
 /**
-* 加载并实例化模型
 * Model Loader
 *
 * Loads and instantiates models.
@@ -88,7 +84,6 @@ public function model($model, $name = '')
 
 ```
 /**
-* 加载函数
 * Helper Loader
 *
 * @param     string|string[]    $helpers    Helper name(s)
@@ -102,7 +97,6 @@ public function helper($helpers)
 
 ```
 /**
-* 加载并实例化类
 * Library Loader
 *
 * Loads and instantiates libraries.
@@ -121,7 +115,6 @@ public function library($library, $params = NULL, $object_name = NULL)
 
 ```
 /**
-* 加载并实例化数据库类
 * Database Loader
 *
 * @return   object
