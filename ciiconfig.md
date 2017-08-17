@@ -19,5 +19,28 @@
 | CII\_Config::base\_url\(\) | 返回网页根路径 |
 | CII\_Config::set\_item\(\) | 新增或更新一个配置项 |
 
+#### \_\_construct\(\)
+
+```
+/**
+* Class constructor
+*
+* Sets the $config data from the primary config.php file as a class variable.
+*
+* @return	void
+*/
+public function __construct()
+```
+
+#### item\(\)
+
+#### slash\_item\(\)
+
+#### site\_url\(\)
+
+#### base\_url\(\)
+
+#### set\_item\(\)
+
 
 
