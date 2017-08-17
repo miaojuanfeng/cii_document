@@ -64,6 +64,7 @@ public function __set()
 
 ```
 /**
+* 设置带有有效时间的 session 数据
 * Set tempdata
 *
 * Legacy CII_Session compatibility method
