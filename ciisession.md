@@ -39,7 +39,7 @@ public function __construct()
 * 从CII_Session类中获取成员变量
 * Magic method 
 *
-* Fetch member variables from Controller if it's not defined in CII_Loader.
+* Fetch member variables from CII_Session if it's not defined in CII_Loader.
 *
 * @return    object
 */
