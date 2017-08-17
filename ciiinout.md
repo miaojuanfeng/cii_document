@@ -105,6 +105,15 @@ public function num_post()
 
 #### num\_get\(\)
 
+```
+/**
+* Fetch GET data total 
+*
+* @return    int
+*/
+public function num_get()
+```
+
 #### server\(\)
 
 #### is\_post\(\)
