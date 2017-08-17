@@ -95,7 +95,7 @@ public function base_url($uri = '')
 /**
 * Set a config file item
 *
-* @param    string    $item    Config item key
+* @param    string    $item     Config item key
 * @param    string    $value    Config item value
 *
 * @return    void
