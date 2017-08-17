@@ -98,40 +98,43 @@ public function tempdata($key = NULL)
 
 ```
 /**
- * Set userdata
- *
- * Legacy CI_Session compatibility method
- *
- * @param    mixed    $data     Session data key or an associative array
- * @param    mixed    $value    Value to store
- * @return    void
- */
+* Set userdata
+*
+* Legacy CI_Session compatibility method
+*
+* @param    mixed    $data     Session data key or an associative array
+* @param    mixed    $value    Value to store
+* @return    void
+*/
+public function set_userdata($data, $value = NULL)
 ```
 
 #### userdata\(\)
 
 ```
 /**
- * Userdata (fetch)
- *
- * Legacy CI_Session compatibility method
- *
- * @param    string    $key      Session data key
- * @return    mixed    Session   data value or NULL if not found
- */
+* Userdata (fetch)
+*
+* Legacy CI_Session compatibility method
+*
+* @param    string    $key      Session data key
+* @return    mixed    Session   data value or NULL if not found
+*/
+public function userdata($key = NULL)
 ```
 
 #### unset\_userdata\(\)
 
 ```
 /**
- * Unset userdata
- *
- * Legacy CI_Session compatibility method
- *
- * @param    mixed    $data    Session data key(s)
- * @return    void
- */
+* Unset userdata
+*
+* Legacy CI_Session compatibility method
+*
+* @param    mixed    $data    Session data key(s)
+* @return    void
+*/
+public function unset_userdata($key)
 ```
 
 
