@@ -33,6 +33,18 @@ public function __construct()
 
 #### append\_output\(\)
 
+```
+/**
+* Append Output
+*
+* Appends data onto the output string.
+*
+* @param	string	$output	Data to append
+* @return	CI_Output
+*/
+public function append_output($output)
+```
+
 #### display\(\)
 
 #### get\_output\(\)
