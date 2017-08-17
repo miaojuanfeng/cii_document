@@ -96,7 +96,7 @@ public function get_post($index)
 
 ```
 /**
-* Fetch GET data number
+* Fetch GET data total
 *
 * @return    int
 */
