@@ -18,5 +18,17 @@
 | CII\_Hooks::\_\_construct\(\) | 构造函数 |
 | CII\_Hooks::call\_hook\(\) | 调用钩子 |
 
+#### \_\_construct\(\)
+
+```
+/**
+* Class constructor
+*
+* @return	void
+*/
+```
+
+#### call\_hook\(\)
+
 
 
