@@ -38,8 +38,8 @@ public function __construct()
 /**
 * Fetch a config file item
 *
-* @param    string    $item    Config item name
-* @param    string    $index    Index name
+* @param    string         $item    Config item name
+* @param    string         $index    Index name
 * @return   string|null    The configuration item or NULL if the item doesn't exist
 */
 ```
