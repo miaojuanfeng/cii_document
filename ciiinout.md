@@ -129,6 +129,15 @@ public function server($index)
 
 #### is\_post\(\)
 
+```
+/**
+* Check is it POST method
+*
+* @return   bool
+*/
+public function is_post()
+```
+
 #### is\_get\(\)
 
 #### user\_agent\(\)
