@@ -96,7 +96,7 @@ public function get_post($index)
 
 ```
 /**
-* Fetch an item from GET data with fallback to POST
+* Fetch GET data number
 *
 * @return    int
 */
