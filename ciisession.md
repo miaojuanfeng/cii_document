@@ -53,7 +53,7 @@ public function __get()
 * 设置CII_Session类中成员变量的值
 * Magic method 
 *
-* Fetch member variables from CII_Session no mater it's defined or not.
+* Set member variables's value from CII_Session no mater it's defined or not.
 *
 * @return    mixed
 */
