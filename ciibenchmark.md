@@ -47,6 +47,28 @@ public function mark($name)
 
 #### elapsed\_time\(\)
 
+```
+/**
+* Elapsed time
+*
+* Calculates the time difference between two marked points.
+*
+* If the first parameter is empty this function instead returns the
+* {elapsed_time} pseudo-variable. This permits the full system
+* execution time to be shown in a template. The output class will
+* swap the real value for this variable.
+*
+* @param	string	$point1		A particular marked point
+* @param	string	$point2		A particular marked point
+* @param	int	$decimals	Number of decimal places
+*
+* @return	string	Calculated elapsed time on success,
+*			an '{elapsed_string}' if $point1 is empty
+*			or an empty string if $point1 is not found.
+*/
+public function elapsed_time($point1 = '', $point2 = '', $decimals = 4)
+```
+
 #### memory\_usage\(\)
 
 #### memory\_peak\(\)
