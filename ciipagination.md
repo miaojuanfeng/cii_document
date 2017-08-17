@@ -34,11 +34,14 @@ public function __construct()
 
 ```
 /**
+* 初始化分页对象
 * Initialize Preferences
 *
-* @param	array	$params	Initialization parameters
-* @return	CI_Pagination
+* @param    array    $params    Initialization parameters
+*
+* @return    CI_Pagination
 */
+public function initialize(array $params = array())
 ```
 
 #### create\_links\(\)
