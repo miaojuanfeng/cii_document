@@ -124,6 +124,7 @@ public function num_get()
 *
 * @return   mixed
 */
+public function server($index)
 ```
 
 #### is\_post\(\)
