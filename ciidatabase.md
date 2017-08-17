@@ -221,12 +221,21 @@ public function delete($table = '', $where = '', $limit = NULL)
 /**
 * Returns the last query that was executed
 *
-* @return	string
+* @return    string
 */
 public function last_query()
 ```
 
 #### insert\_id\(\)
+
+```
+/**
+* Insert ID
+*
+* @return	int
+*/
+public function insert_id()
+```
 
 #### group\_start\(\)
 
