@@ -140,6 +140,15 @@ public function is_post()
 
 #### is\_get\(\)
 
+```
+/**
+* Check is it GET method
+*
+* @return   bool
+*/
+public function is_get()
+```
+
 #### user\_agent\(\)
 
 #### method\(\)
