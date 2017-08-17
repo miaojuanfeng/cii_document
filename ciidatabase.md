@@ -80,12 +80,24 @@ public function query($sql)
 /**
 * Affected Rows
 *
-* @return	int
+* @return    int
 */
 public function affected_rows()
 ```
 
 #### select\(\)
+
+```
+/**
+* Select
+*
+* Generates the SELECT portion of the query
+*
+* @param	string
+* @param	mixed
+* @return	CI_DB_query_builder
+*/
+```
 
 #### where\(\)
 
