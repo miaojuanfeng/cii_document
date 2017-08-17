@@ -47,7 +47,6 @@ public function __construct()
 * Fetch an item from the POST array
 *
 * @param     mixed    $index        Index for item to be fetched from $_POST
-* @param     bool     $xss_clean    Whether to apply XSS filtering
 *
 * @return    mixed
 */
