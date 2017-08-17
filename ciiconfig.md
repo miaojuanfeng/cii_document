@@ -27,12 +27,22 @@
 *
 * Sets the $config data from the primary config.php file as a class variable.
 *
-* @return	void
+* @return    void
 */
 public function __construct()
 ```
 
 #### item\(\)
+
+```
+/**
+* Fetch a config file item
+*
+* @param	string	$item	Config item name
+* @param	string	$index	Index name
+* @return	string|null	The configuration item or NULL if the item doesn't exist
+*/
+```
 
 #### slash\_item\(\)
 
