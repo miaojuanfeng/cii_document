@@ -19,5 +19,26 @@
 | CII\_Router::set\_method\(\) | 设置访问的控制器方法 |
 | CII\_Router::fetch\_method\(\) | 获取访问的控制器方法 |
 
+#### \_\_construct\(\)
+
+```
+/**
+* Class constructor
+*
+* Runs the route mapping function.
+*
+* @return    void
+*/
+public function __construct()
+```
+
+#### set\_class\(\)
+
+#### fetch\_class\(\)
+
+#### set\_method\(\)
+
+#### fetch\_method\(\)
+
 
 
