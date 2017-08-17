@@ -39,8 +39,8 @@ public function __construct()
 *
 * Appends data onto the output string.
 *
-* @param	string	$output	Data to append
-* @return	CI_Output
+* @param     string      $output    Data to append
+* @return    CI_Output
 */
 public function append_output($output)
 ```
