@@ -74,8 +74,9 @@ public function display()
 *
 * Returns the current output string.
 *
-* @return	string
+* @return    string
 */
+public function get_output()
 ```
 
 #### set\_output\(\)
