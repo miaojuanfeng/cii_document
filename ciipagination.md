@@ -37,7 +37,7 @@ public function __construct()
 * 初始化分页对象
 * Initialize Preferences
 *
-* @param    array    $params    Initialization parameters
+* @param     array    $params    Initialization parameters
 *
 * @return    CI_Pagination
 */
