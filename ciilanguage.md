@@ -17,5 +17,20 @@
 | CII\_Lang::load\(\) | 加载一种语言 |
 | CII\_Lang::line\(\) | 获取一个词汇在当前语言下的翻译 |
 
+#### \_\_construct\(\)
+
+```
+/**
+* Class constructor
+*
+* @return	void
+*/
+public function __construct()
+```
+
+#### load\(\)
+
+#### line\(\)
+
 
 
