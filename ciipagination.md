@@ -46,5 +46,14 @@ public function initialize(array $params = array())
 
 #### create\_links\(\)
 
+```
+/**
+* Generate the pagination links
+*
+* @return	string
+*/
+public function create_links()
+```
+
 
 
