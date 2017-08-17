@@ -81,6 +81,7 @@ public function set_method($method)
 *
 * @return    string
 */
+public function fetch_method()
 ```
 
 
