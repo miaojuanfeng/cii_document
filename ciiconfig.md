@@ -86,6 +86,7 @@ public function site_url($uri = '')
 *
 * @return    string
 */
+public function base_url($uri = '')
 ```
 
 #### set\_item\(\)
