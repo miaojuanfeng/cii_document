@@ -271,7 +271,7 @@ public function group_end()
 * @param    mixed
 * @param    mixed
 *
-* @return    CI_DB_query_builder
+* @return    void
 */
 public function or_where($key, $value = NULL)
 ```
