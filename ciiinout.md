@@ -155,8 +155,9 @@ public function is_get()
 /**
 * Fetch User Agent string
 *
-* @return	string|null	User Agent string or NULL if it doesn't exist
+* @return    string|null    User Agent string or NULL if it doesn't exist
 */
+public function user_agent()
 ```
 
 #### method\(\)
