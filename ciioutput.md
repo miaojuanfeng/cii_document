@@ -87,8 +87,9 @@ public function get_output()
 *
 * Sets the output string.
 *
-* @param	string	$output	Output data
-* @return	CI_Output
+* @param    string     $output    Output data
+*
+* @return    CI_Output
 */
 public function set_output($output)
 ```
