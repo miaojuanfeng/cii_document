@@ -60,5 +60,21 @@ public function __get()
 public function __set()
 ```
 
+set\_tempdata\(\)
+
+```
+/**
+ * Set tempdata
+ *
+ * Legacy CII_Session compatibility method
+ *
+ * @param	mixed	$key	Session data key
+ * @param	mixed	$value	Value to store
+ * @param	int	$ttl	Time-to-live in seconds
+ * @return	void
+ */
+ public function set_tempdata($key, $value = NULL, $ttl = 300)
+```
+
 
 
