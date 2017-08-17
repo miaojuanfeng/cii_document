@@ -158,6 +158,7 @@ public function limit($value, $offset = 0)
 * @param    string    the table
 * @param    string    the limit clause
 * @param    string    the offset clause
+*
 * @return    object
 */
 public function get($table = '', $limit = NULL, $offset = NULL)
