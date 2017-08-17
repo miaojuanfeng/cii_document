@@ -49,6 +49,7 @@ public function load($langfile, $idiom = '', $is_return)
 
 ```
 /**
+* 获取一个词汇在当前语言下的翻译
 * Language line
 *
 * Fetches a single line of text from the language array
