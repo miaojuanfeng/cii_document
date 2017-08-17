@@ -38,7 +38,7 @@ public function __construct()
 * @param    string    $idiom         Language name (english, etc.)
 * @param    bool      $return        Whether to return the loaded array of translations
 *
-* @return   true|false|array    Array containing translations, if $return is set to TRUE
+* @return   true|false|array         Array containing translations, if $return is set to TRUE
 */
 public function load($langfile, $idiom = '', $is_return)
 ```
