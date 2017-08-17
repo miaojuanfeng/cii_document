@@ -25,7 +25,6 @@ Session类。
 
 ```
 /**
-* 构造函数
 * Class constructor
 *
 * @return    void
@@ -37,7 +36,6 @@ public function __construct()
 
 ```
 /**
-* 从CII_Session类中获取成员变量
 * Magic method 
 *
 * Fetch member variables from CII_Session no mater it's defined or not.
@@ -51,7 +49,6 @@ public function __get()
 
 ```
 /**
-* 设置CII_Session类中成员变量的值
 * Magic method 
 *
 * Set member variables's value no mater it's defined or not.
@@ -65,7 +62,6 @@ public function __set()
 
 ```
 /**
-* 设置带有有效时间的 session 数据
 * Set tempdata
 *
 * Legacy CII_Session compatibility method
@@ -83,7 +79,6 @@ public function set_tempdata($key, $value = NULL, $ttl = 300)
 
 ```
 /**
-* 获取带有有效时间的 session 数据
 * Temp data (fetch)
 *
 * Legacy CII_Session compatibility method
@@ -99,7 +94,6 @@ public function tempdata($key = NULL)
 
 ```
 /**
-* 设置 $_SESSION 数据
 * Set userdata
 *
 * Legacy CII_Session compatibility method
@@ -116,7 +110,6 @@ public function set_userdata($data, $value = NULL)
 
 ```
 /**
-* 从 $_SESSION 数组中获取指定的项
 * Userdata (fetch)
 *
 * Legacy CII_Session compatibility method
@@ -132,7 +125,6 @@ public function userdata($key = NULL)
 
 ```
 /**
-* 从 $_SESSION 全局变量中删除某个值
 * Unset userdata
 *
 * Legacy CI_Session compatibility method
