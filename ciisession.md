@@ -46,5 +46,19 @@ public function __construct()
 public function __get()
 ```
 
+\_\_set\(\)
+
+```
+/**
+* 设置CII_Session类中成员变量的值
+* Magic method 
+*
+* Fetch member variables from CII_Session no mater it's defined or not.
+*
+* @return    mixed
+*/
+public function __get()
+```
+
 
 
