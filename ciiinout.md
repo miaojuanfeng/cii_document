@@ -26,5 +26,43 @@
 | CII\_Input::method\(\) | 返回表单提交的方法，$\_POST或$\_GET |
 | CII\_Input::ip\_address\(\) | 返回客户端IP地址 |
 
+#### \_\_construct\(\)
+
+```
+/**
+* Class constructor
+*
+* Determines whether to globally enable the XSS processing
+* and whether to allow the $_GET array.
+*
+* @return	void
+*/
+
+```
+
+#### post\(\)
+
+#### get\(\)
+
+#### post\_get\(\)
+
+#### get\_post\(\)
+
+#### num\_post\(\)
+
+#### num\_get\(\)
+
+#### server\(\)
+
+#### is\_post\(\)
+
+#### is\_get\(\)
+
+#### user\_agent\(\)
+
+#### method\(\)
+
+#### ip\_address\(\)
+
 
 
