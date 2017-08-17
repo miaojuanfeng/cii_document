@@ -21,7 +21,7 @@ Session类。
 | CII\_Session::userdata\(\) | 获取用户数据 |
 | CII\_Session::unset\_userdata\(\) | 删除用户数据 |
 
-\_\_construct\(\)
+#### \_\_construct\(\)
 
 ```
 /**
