@@ -41,6 +41,7 @@ public function __construct()
 * @param     string    $name    Marker name
 * @return    void
 */
+public function mark($name)
 ```
 
 #### elapsed\_time\(\)
