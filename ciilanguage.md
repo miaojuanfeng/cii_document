@@ -42,7 +42,7 @@ public function __construct()
 *
 * @return    void|string[]    Array containing translations, if $return is set to TRUE
 */
-public function load($langfile, $idiom = '', $return = FALSE, $add_suffix = TRUE, $alt_path = '')
+public function load($langfile, $idiom = '', $is_return)
 ```
 
 #### line\(\)
