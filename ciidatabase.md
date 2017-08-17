@@ -58,6 +58,23 @@ public function __construct()
 
 #### query\(\)
 
+```
+/**
+* Execute the query
+*
+* Accepts an SQL string as input and returns a result object upon
+* successful execution of a "read" type query. Returns boolean TRUE
+* upon successful execution of a "write" type query. Returns boolean
+* FALSE upon failure, and if the $db_debug variable is set to TRUE
+* will raise an error.
+*
+* @param	string	$sql
+*
+* @return	mixed
+*/
+public function query($sql, $binds = FALSE, $return_object = NULL)
+```
+
 #### affected\_rows\(\)
 
 #### select\(\)
