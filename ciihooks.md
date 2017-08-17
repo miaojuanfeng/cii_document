@@ -24,8 +24,9 @@
 /**
 * Class constructor
 *
-* @return	void
+* @return    void
 */
+public function __construct()
 ```
 
 #### call\_hook\(\)
