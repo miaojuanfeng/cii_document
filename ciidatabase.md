@@ -206,16 +206,25 @@ public function update($table = '', $set = NULL, $where = NULL, $limit = NULL)
 *
 * Compiles a delete string and runs the query
 *
-* @param	mixed	the table(s) to delete from. String or array
-* @param	mixed	the where clause
-* @param	mixed	the limit clause
+* @param    mixed    the table(s) to delete from. String or array
+* @param    mixed    the where clause
+* @param    mixed    the limit clause
 *
-* @return	mixed
+* @return    mixed
 */
 public function delete($table = '', $where = '', $limit = NULL)
 ```
 
 #### last\_query\(\)
+
+```
+/**
+* Returns the last query that was executed
+*
+* @return	string
+*/
+public function last_query()
+```
 
 #### insert\_id\(\)
 
