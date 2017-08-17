@@ -243,12 +243,9 @@ public function insert_id()
 /**
 * Starts a query group.
 *
-* @param	string	$not	(Internal use only)
-* @param	string	$type	(Internal use only)
-*
-* @return	void
+* @return    void
 */
-public function group_start($not = '', $type = 'AND ')
+public function group_start()
 ```
 
 #### group\_end\(\)
