@@ -35,7 +35,7 @@ public function __construct()
 /**
 * Call Hook
 *
-* Calls a particular hook. Called by CodeIgniter.php.
+* Calls a particular hook.
 *
 * @param     string    $which    Hook name
 *
