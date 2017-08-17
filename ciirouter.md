@@ -37,10 +37,11 @@ public function __construct()
 
 ```
 /**
+* 设置访问的控制器类名
 * Set class name
 *
-* @param	string	$class	Class name
-* @return	void
+* @param    string    $class    Class name
+* @return    void
 */
 ```
 
