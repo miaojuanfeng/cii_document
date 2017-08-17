@@ -116,6 +116,16 @@ public function num_get()
 
 #### server\(\)
 
+```
+/**
+* Fetch an item from the SERVER array
+*
+* @param	mixed	$index		Index for item to be fetched from $_SERVER
+* @param	bool	$xss_clean	Whether to apply XSS filtering
+* @return	mixed
+*/
+```
+
 #### is\_post\(\)
 
 #### is\_get\(\)
