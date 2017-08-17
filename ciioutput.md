@@ -38,6 +38,7 @@ public function __construct()
 /**
 * 追加输出字符串到缓冲区
 * Append Output
+*
 * Appends data onto the output string.
 *
 * @param     string      $output    Data to append
