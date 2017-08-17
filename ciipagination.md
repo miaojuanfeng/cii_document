@@ -22,7 +22,6 @@
 
 ```
 /**
-* 构造函数
 * Constructor
 *
 * @return    void
@@ -34,7 +33,6 @@ public function __construct()
 
 ```
 /**
-* 初始化分页对象
 * Initialize Preferences
 *
 * @param     array    $params    Initialization parameters
@@ -48,7 +46,6 @@ public function initialize(array $params = array())
 
 ```
 /**
-* 创建分页链接
 * Generate the pagination links
 *
 * @return    string
