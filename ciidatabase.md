@@ -182,6 +182,22 @@ public function insert($table = '', $set = NULL)
 
 #### update\(\)
 
+```
+/**
+* UPDATE
+*
+* Compiles an update string and runs the query.
+*
+* @param	string	$table
+* @param	array	$set	An associative array of update values
+* @param	mixed	$where
+* @param	int	$limit
+*
+* @return	object
+*/
+public function update($table = '', $set = NULL, $where = NULL, $limit = NULL)
+```
+
 #### delete\(\)
 
 #### last\_query\(\)
