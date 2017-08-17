@@ -77,6 +77,7 @@ public function set_method($method)
 
 ```
 /**
+* 获取访问的控制器方法
 * Fetch the current method
 *
 * @return    string
