@@ -30,7 +30,19 @@ public function __construct()
 
 #### load\(\)
 
-
+```
+/**
+* Load a language file
+*
+* @param	mixed	$langfile	Language file name
+* @param	string	$idiom		Language name (english, etc.)
+* @param	bool	$return		Whether to return the loaded array of translations
+* @param 	bool	$add_suffix	Whether to add suffix to $langfile
+* @param 	string	$alt_path	Alternative path to look for the language file
+*
+* @return	void|string[]	Array containing translations, if $return is set to TRUE
+*/
+```
 
 #### line\(\)
 
