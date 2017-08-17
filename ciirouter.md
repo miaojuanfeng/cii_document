@@ -49,6 +49,14 @@ public function set_class($class)
 
 #### fetch\_class\(\)
 
+```
+/**
+* Fetch the current class
+*
+* @return	string
+*/
+```
+
 #### set\_method\(\)
 
 #### fetch\_method\(\)
