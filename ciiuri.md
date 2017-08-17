@@ -33,7 +33,6 @@ URI类。
 
 ```
 /**
-* 构造函数
 * Class constructor
 *
 * @return    void
@@ -45,7 +44,6 @@ public function __construct()
 
 ```
 /**
-* 获取路由分段
 * Fetch URI Segment
 *
 * @see        CII_URI::$segments
@@ -61,7 +59,6 @@ public function segment($n, $no_result = NULL)
 
 ```
 /**
-* 获取路由后的分段
 * Fetch URI "routed" Segment
 *
 * Returns the re-routed URI segment (assuming routing rules are used)
@@ -82,7 +79,6 @@ public function rsegment($n, $no_result = NULL)
 
 ```
 /**
-* 获取路由数组
 * Segment Array
 *
 * @return    array    CII_URI::$segments
@@ -94,7 +90,6 @@ public function segment_array()
 
 ```
 /**
-* 获取路由后数组
 * Routed Segment Array
 *
 * @return    array    CII_URI::$rsegments
@@ -106,7 +101,6 @@ public function rsegment_array()
 
 ```
 /**
-* 获取路由分段数量
 * Total number of segments
 *
 * @return    int
@@ -118,7 +112,6 @@ public function total_segments()
 
 ```
 /**
-* 获取路由后分段数量
 * Total number of routed segments
 *
 * @return    int
@@ -130,7 +123,6 @@ public function total_rsegments()
 
 ```
 /**
-* 获取路由字符串
 * Fetch URI string
 *
 * @return    string    CII_URI::$uri_string
@@ -142,7 +134,6 @@ public function uri_string()
 
 ```
 /**
-* 获取路由后字符串
 * Fetch Re-routed URI string
 *
 * @return    string
@@ -154,7 +145,6 @@ public function ruri_string()
 
 ```
 /**
-* 返回末尾加'/'的路由分段
 * Slash segment
 *
 * Fetches an URI segment with a slash.
@@ -171,7 +161,6 @@ public function slash_segment($n, $where = 't')
 
 ```
 /**
-* 返回末尾加'/'的路由后分段
 * Slash routed segment
 *
 * Fetches an URI routed segment with a slash.
@@ -188,7 +177,6 @@ public function slash_rsegment($n, $where = 't')
 
 ```
 /**
-* 数组转成uri字符串
 * Assoc to URI
 *
 * Generates a URI string from an associative array.
