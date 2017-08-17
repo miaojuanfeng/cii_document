@@ -25,6 +25,7 @@ Session类。
 
 ```
 /**
+* 构造函数
 * Class constructor
 *
 * @return    void
