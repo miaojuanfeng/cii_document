@@ -86,7 +86,7 @@ public function set_tempdata($key, $value = NULL, $ttl = 300)
 * 获取带有有效时间的 session 数据
 * Temp data (fetch)
 *
-* Legacy CI_Session compatibility method
+* Legacy CII_Session compatibility method
 *
 * @param    string    $key    Session data key
 * @return    mixed    Session data value or NULL if not found
@@ -100,7 +100,7 @@ public function tempdata($key = NULL)
 /**
 * Set userdata
 *
-* Legacy CI_Session compatibility method
+* Legacy CII_Session compatibility method
 *
 * @param    mixed    $data     Session data key or an associative array
 * @param    mixed    $value    Value to store
@@ -115,7 +115,7 @@ public function set_userdata($data, $value = NULL)
 /**
 * Userdata (fetch)
 *
-* Legacy CI_Session compatibility method
+* Legacy CII_Session compatibility method
 *
 * @param    string    $key      Session data key
 * @return    mixed    Session   data value or NULL if not found
