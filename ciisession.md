@@ -98,6 +98,7 @@ public function tempdata($key = NULL)
 
 ```
 /**
+* 设置 $_SESSION 数据
 * Set userdata
 *
 * Legacy CII_Session compatibility method
