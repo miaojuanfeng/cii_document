@@ -162,6 +162,18 @@ public function user_agent()
 
 #### method\(\)
 
+```
+/**
+* Get Request Method
+*
+* Return the request method
+*
+* @param	bool	$upper	Whether to return in upper or lower case
+*				(default: FALSE)
+* @return 	string
+*/
+```
+
 #### ip\_address\(\)
 
 
