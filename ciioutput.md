@@ -22,6 +22,7 @@
 
 ```
 /**
+* 构造函数
 * Class constructor
 *
 * Determines whether zLib output compression will be used.
@@ -35,8 +36,9 @@ public function __construct()
 
 ```
 /**
+* 
 * Append Output
-*
+* 追加输出字符串到缓冲区
 * Appends data onto the output string.
 *
 * @param     string      $output    Data to append
