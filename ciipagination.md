@@ -20,7 +20,14 @@
 
 #### \_\_construct\(\)
 
-
+```
+/**
+* Constructor
+*
+* @param	array	$params	Initialization parameters
+* @return	void
+*/
+```
 
 #### initialize\(\)
 
