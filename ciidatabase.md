@@ -254,8 +254,9 @@ public function group_start()
 /**
 * Ends a query group
 *
-* @return	void
+* @return    void
 */
+public function group_end()
 ```
 
 #### or\_where\(\)
