@@ -155,11 +155,12 @@ public function limit($value, $offset = 0)
 * Compiles the select statement based on the other functions called
 * and runs the query
 *
-* @param	string	the table
-* @param	string	the limit clause
-* @param	string	the offset clause
-* @return	object
+* @param    string    the table
+* @param    string    the limit clause
+* @param    string    the offset clause
+* @return    object
 */
+public function get($table = '', $limit = NULL, $offset = NULL)
 ```
 
 #### insert\(\)
