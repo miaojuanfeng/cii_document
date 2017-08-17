@@ -52,12 +52,21 @@ public function result($type = 'object')
 /**
 * Query result. "array" version.
 *
-* @return	array
+* @return    array
 */
 public function result_array()
 ```
 
 #### row\_array\(\)
+
+```
+/**
+* Returns a single result row - array version
+*
+* @param	int	$n
+* @return	array
+*/
+```
 
 #### num\_rows\(\)
 
