@@ -79,8 +79,7 @@ public function set_method($method)
 /**
 * Fetch the current method
 *
-* @deprecated	3.0.0	Read the 'method' property instead
-* @return	string
+* @return    string
 */
 ```
 
