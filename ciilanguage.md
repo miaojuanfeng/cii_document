@@ -14,13 +14,14 @@
 | Method | Description |
 | :--- | :--- |
 | CII\_Lang::\_\_construct\(\) | 构造函数 |
-| CII\_Lang::load\(\) | 加载一种语言 |
+| CII\_Lang::load\(\) | 加载语言文件 |
 | CII\_Lang::line\(\) | 获取一个词汇在当前语言下的翻译 |
 
 #### \_\_construct\(\)
 
 ```
 /**
+* 构造函数
 * Class constructor
 *
 * @return    void
@@ -32,6 +33,7 @@ public function __construct()
 
 ```
 /**
+* 加载语言文件
 * Load a language file
 *
 * @param    mixed     $langfile      Language file name
