@@ -172,13 +172,12 @@ public function get($table = '', $limit = NULL, $offset = NULL)
 *
 * Compiles an insert string and runs the query
 *
-* @param	string	the table to insert data into
-* @param	array	an associative array of insert values
-* @param	bool	$escape	Whether to escape values and identifiers
+* @param    string    the table to insert data into
+* @param    array     an associative array of insert values
 *
-* @return	object
+* @return    object
 */
-public function insert($table = '', $set = NULL, $escape = NULL)
+public function insert($table = '', $set = NULL)
 ```
 
 #### update\(\)
