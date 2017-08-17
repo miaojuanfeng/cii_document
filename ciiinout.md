@@ -50,7 +50,7 @@ public function __construct()
 * @param     bool     $xss_clean    Whether to apply XSS filtering
 * @return    mixed
 */
-public function post($index = NULL, $xss_clean = NULL)
+public function post($index = NULL)
 ```
 
 #### get\(\)
