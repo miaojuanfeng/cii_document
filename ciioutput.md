@@ -52,6 +52,7 @@ public function append_output($output)
 
 ```
 /**
+* 输出缓冲区里的内容
 * Display Output
 *
 * Processes and sends finalized output data to the browser along
