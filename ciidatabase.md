@@ -285,8 +285,7 @@ public function or_where($key, $value = NULL)
 *
 * Escape string in SQL
 *
-* @param    mixed
-* @param    mixed
+* @param    string
 *
 * @return    void
 */
