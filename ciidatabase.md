@@ -287,7 +287,7 @@ public function or_where($key, $value = NULL)
 *
 * @param    string
 *
-* @return    void
+* @return    string
 */
 public function escape_string($str)
 ```
