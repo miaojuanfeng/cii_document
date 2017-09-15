@@ -129,5 +129,18 @@ public function database()
 //未实现
 ```
 
+#### internal\(\)
+
+```
+/**
+* Database Loader
+*
+* @param    string    $name    CII class name, without prefix 'cii'
+*
+* @return   object
+*/
+public function internal($name)
+```
+
 
 
