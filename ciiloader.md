@@ -137,7 +137,7 @@ public function database()
 *
 * @param    string    $name    CII class name, without prefix 'cii'
 *
-* @return   object
+* @return   bool | object
 */
 public function internal($name)
 ```
