@@ -44,6 +44,7 @@
 | CII\_Database::group\_start\(\) | 构造查询条件\( |
 | CII\_Database::group\_end\(\) | 构造查询条件\) |
 | CII\_Database::or\_where\(\) | 构造where ... or ... 查询条件 |
+| CII\_Database::escape\_string\(\) | 字符串转义 |
 
 #### \_\_construct\(\)
 
@@ -274,6 +275,22 @@ public function group_end()
 * @return    void
 */
 public function or_where($key, $value = NULL)
+```
+
+#### escape\_string\(\)
+
+```
+/**
+* Escape string
+*
+* Escape string in SQL
+*
+* @param    mixed
+* @param    mixed
+*
+* @return    void
+*/
+public function escape_string($str)
 ```
 
 
