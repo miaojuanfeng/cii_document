@@ -44,7 +44,7 @@
 | CII\_Database::group\_start\(\) | 构造查询条件\( |
 | CII\_Database::group\_end\(\) | 构造查询条件\) |
 | CII\_Database::or\_where\(\) | 构造where ... or ... 查询条件 |
-| CII\_Database::escape\_string\(\) | 字符串转义 |
+| CII\_Database::escape\_str\(\) | 字符串转义 |
 
 #### \_\_construct\(\)
 
@@ -277,7 +277,7 @@ public function group_end()
 public function or_where($key, $value = NULL)
 ```
 
-#### escape\_string\(\)
+#### escape\_str\(\)
 
 ```
 /**
@@ -289,7 +289,7 @@ public function or_where($key, $value = NULL)
 *
 * @return    string
 */
-public function escape_string($str)
+public function escape_str($str)
 ```
 
 
